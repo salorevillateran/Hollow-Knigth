@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Pokédex SPA</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+          rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- ========================= -->
+    <!-- HEADER -->
+    <!-- ========================= -->
+
+    <header>
+
+        <div class="logo">
+
+            <img
+                src="https://upload.wikimedia.org/wikipedia/fr/8/88/Hollow_Knight_Logo.png?utm_source=fr.wikipedia.org&utm_campaign=index&utm_content=original"
+                alt="Pokédex">
+
+            <div>
+
+                <h1>Pokédex SPA</h1>
+
+                <p>Proyecto con HTML, CSS y JavaScript</p>
+
+            </div>
+
+        </div>
+
+        <div class="search">
+
+            <input
+                type="text"
+                id="searchInput"
+         detailContainer       placeholder="Buscar Pokémon...">
+
+            <button id="searchButton">
+
+                Buscar
+
+            </button>
+
+        </div>
+
+    </header>
+
+    <!-- ========================= -->
+    <!-- MAIN -->
+    <!-- ========================= -->
+
+    <main>
+
+        <!-- ========================= -->
+        <!-- LISTA -->
+        <!-- ========================= -->
+
+        <section class="pokemon-list">
+
+            <div class="section-title">
+
+                <h2>Pokémon</h2>
+
+                <span id="pokemonCounter">
+
+                    0 Pokémon
+
+                </span>
+
+            </div>
+
+            <div id="pokemonContainer">
+sz
+                <!-- JavaScript -->
+
+            </div>
+
+            <div class="pagination">
+
+                <button id="previousBtn">
+
+                    ⬅ Anterior
+
+                </button>
+
+                <button id="nextBtn">
+
+                    Siguiente ➜
+
+                </button>
+
+            </div>
+
+        </section>
+
+        <!-- ========================= -->
+        <!-- DETALLE -->
+        <!-- ========================= -->
+
+        <aside class="pokemon-detail">
+
+            <div id="detailContainer">
+
+                <img
+                    src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png"
+                    alt="Pokemon">
+
+                <h2>
+
+                    Pikachu
+
+                </h2>
+
+                <p>
+
+                    Selecciona un Pokémon para ver su información.
+
+                </p>
+
+            </div>
+
+        </aside>
+
+    </main>
+
+    <!-- ========================= -->
+    <!-- LOADING -->
+    <!-- ========================= -->
+
+    <div id="loading" class="hidden">
+
+        <div class="loader"></div>
+
+        <p>
+
+            Cargando Pokémon...
+
+        </p>
+
+    </div>
+
+    <!-- ========================= -->
+    <!-- ERROR -->
+    <!-- ========================= -->
+
+    <div id="errorMessage"
+         class="hidden">
+
+        Pokémon no encontrado.
+
+    </div>
+
+    <!-- ========================= -->
+    <!-- FOOTER -->
+    <!-- ========================= -->
+
+    <footer>
+
+        <p>
+
+            Proyecto SPA utilizando PokéAPI
+
+        </p>
+
+        <p>
+
+            HTML • CSS • JavaScript • Fetch API
+
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
