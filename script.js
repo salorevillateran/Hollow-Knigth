@@ -6,7 +6,6 @@
 // ==============================
 // BASE DE DATOS LOCAL DE PERSONAJES
 // ==============================
-
 const personajesHollowKnight = [
     {
         id: 1,
@@ -19,7 +18,7 @@ const personajesHollowKnight = [
             { stat: { name: "vida" }, base_stat: 5 },
             { stat: { name: "ataque" }, base_stat: 10 }
         ],
-        imagen: "https://images.cults3d.com/g05_0d0T4_rC_sCjY8uK6J5tN20=/https://files.cults3d.com/uploaders/19597288/illustration-file/a3fbc912-32a8-48b9-bc9b-38ccaa93259b/Hollow_Knight_render_3.png"
+        imagen: "https://static.wikia.nocookie.net/characterprofile/images/7/7b/The_Knight_%28Hollow_Knight%29.png/revision/latest?cb=20230623081057"
     },
     {
         id: 2,
@@ -45,9 +44,48 @@ const personajesHollowKnight = [
             { stat: { name: "vida" }, base_stat: 7 },
             { stat: { name: "ataque" }, base_stat: 12 }
         ],
-        imagen: "https://static.wikia.nocookie.net/hollowknight/images/2/22/Quirrel_Artwork.png"
+        imagen: "https://static.wikia.nocookie.net/hollowknight/images/1/1c/Quirrel2.png/revision/latest?cb=20180128203223&path-prefix=es"
+    },
+    {
+        id: 4,
+        nombre: "Cornifer",
+        tipo: "Sendero Verde",
+        altura: 1.10,
+        peso: 45.0,
+        habilidades: ["Eco-localización por Tarareo", "Resistencia Ambiental"],
+        stats: [
+            { stat: { name: "vida" }, base_stat: 999 },
+            { stat: { name: "ataque" }, base_stat: 0 }
+        ],
+        imagen: "https://static.wikia.nocookie.net/neutral-characters/images/f/ff/Cornifer.png/revision/latest?cb=20260225101131"
+    },
+    {       
+        id: 5,
+        nombre: "The Hollow Knight",
+        tipo: "El Templo del Huevo Negro",
+        altura: 2.20,
+        peso: 80.0,
+        habilidades: ["Triple Tajo con Aguijón", "Pilar de Infección"],
+        stats: [
+            { stat: { name: "vida" }, base_stat: 1250 },
+            { stat: { name: "ataque" }, base_stat: 20 }
+        ],
+        imagen: "https://static.wikia.nocookie.net/hollowknight/images/1/12/B_Hollow_Knight.png/revision/latest?cb=20170412204859"
+    },
+    {       
+        id: 6,
+        nombre: "Menderbug",
+        tipo: "Cruces Olvidados",
+        altura: 0.70,
+        peso: .0,
+        habilidades: ["Reparación Instantánea", "Vuelo de Escape"],
+        stats: [
+            { stat: { name: "vida" }, base_stat: 4 },
+            { stat: { name: "ataque" }, base_stat: 0 }
+        ],
+        imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_BJ9BN2PqMpFO3EwrJRAuJt0E-IjfY83XftHu2MiIeg&s=10"
     }
-];
+]
 
 // ==============================
 // VARIABLES
