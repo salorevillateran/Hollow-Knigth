@@ -1,7 +1,3 @@
-/* ================================= */
-/* RESET */
-/* ================================= */
-
 *{
     margin:0;
     padding:0;
@@ -12,13 +8,61 @@ html{
     scroll-behavior:smooth;
 }
 
+:root{
+
+    --fondo:#101218;
+    --header:#171a22;
+    --tarjeta:#191c24;
+    --tarjeta-hover:#1d2029;
+    --texto:#d9dce3;
+    --texto-principal:#f0f1f4;
+    --texto-secundario:#858b98;
+    --borde:#30343e;
+    --input:#0f1117;
+    --boton:#252a34;
+    --boton-hover:#343a46;
+    --imagen:#11141b;
+    --progreso:#899db2;
+
+}
+
+/* ================================= */
+/* MODO CLARO */
+/* ================================= */
+
+body.light-mode{
+
+    --fondo:#eef1f5;
+    --header:#ffffff;
+    --tarjeta:#ffffff;
+    --tarjeta-hover:#f4f5f7;
+    --texto:#30343b;
+    --texto-principal:#20242b;
+    --texto-secundario:#69717d;
+    --borde:#d5d9df;
+    --input:#ffffff;
+    --boton:#e9ecf0;
+    --boton-hover:#dfe3e8;
+    --imagen:#f1f3f6;
+    --progreso:#65798f;
+
+}
+
+/* ================================= */
+/* BODY */
+/* ================================= */
+
 body{
 
     font-family:'Poppins',sans-serif;
 
-    background:#eef2f700;
+    background:var(--fondo);
 
-    color:#333;
+    color:var(--texto);
+
+    transition:
+        background .3s ease,
+        color .3s ease;
 
 }
 
@@ -28,9 +72,9 @@ body{
 
 header{
 
-    background:#ef535000;
+    background:var(--header);
 
-    color:white;
+    color:var(--texto-principal);
 
     display:flex;
 
@@ -44,7 +88,11 @@ header{
 
     padding:20px 40px;
 
-    box-shadow:0 5px 10px rgba(0,0,0,.2);
+    border-bottom:1px solid var(--borde);
+
+    transition:
+        background .3s ease,
+        border-color .3s ease;
 
 }
 
@@ -62,17 +110,25 @@ header{
 
     width:90px;
 
+    filter:brightness(.9);
+
 }
 
 .logo h1{
 
     font-size:2rem;
 
+    font-weight:600;
+
+    color:var(--texto-principal);
+
 }
 
 .logo p{
 
-    opacity:.8;
+    color:var(--texto-secundario);
+
+    font-size:.9rem;
 
 }
 
@@ -92,37 +148,69 @@ header{
 
     width:260px;
 
-    padding:12px;
+    padding:12px 15px;
 
-    border:none;
+    border:1px solid var(--borde);
 
-    border-radius:8px;
+    border-radius:6px;
 
-    font-size:16px;
+    background:var(--input);
+
+    color:var(--texto);
+
+    font-size:15px;
+
+    outline:none;
+
+}
+
+.search input:focus{
+
+    border-color:#8da2b8;
+
+}
+
+.search input::placeholder{
+
+    color:var(--texto-secundario);
 
 }
 
 .search button{
 
-    border:none;
+    border:1px solid var(--borde);
 
     padding:12px 20px;
 
-    border-radius:8px;
+    border-radius:6px;
 
-    background:#212121;
+    background:var(--boton);
 
-    color:white;
+    color:var(--texto);
 
     cursor:pointer;
 
-    transition:.3s;
+    transition:.2s;
 
 }
 
 .search button:hover{
 
-    background:#111;
+    background:var(--boton-hover);
+
+}
+
+/* ================================= */
+/* BOTON DE TEMA */
+/* ================================= */
+
+#themeButton{
+
+    min-width:48px;
+
+    padding:12px;
+
+    font-size:18px;
 
 }
 
@@ -139,6 +227,10 @@ main{
     gap:25px;
 
     padding:30px;
+
+    max-width:1500px;
+
+    margin:auto;
 
 }
 
@@ -158,11 +250,19 @@ main{
 
 }
 
-#pokemonCounter{
+.section-title h2{
 
-    font-weight:bold;
+    font-weight:500;
 
-    color:#ef5350;
+    color:var(--texto-principal);
+
+}
+
+#creatureCounter{
+
+    font-size:.9rem;
+
+    color:var(--texto-secundario);
 
 }
 
@@ -170,14 +270,14 @@ main{
 /* GRID */
 /* ================================= */
 
-#pokemonContainer{
+#creatureContainer{
 
     display:grid;
 
     grid-template-columns:
     repeat(auto-fit,minmax(220px,1fr));
 
-    gap:20px;
+    gap:18px;
 
 }
 
@@ -187,25 +287,25 @@ main{
 
 .card{
 
-    background:white;
+    background:var(--tarjeta);
 
-    border-radius:15px;
+    border:1px solid var(--borde);
+
+    border-radius:8px;
 
     overflow:hidden;
 
-    box-shadow:0 8px 18px rgba(0,0,0,.15);
-
-    transition:.3s;
-
-    cursor:pointer;
+    transition:.2s;
 
 }
 
 .card:hover{
 
-    transform:translateY(-8px);
+    transform:translateY(-4px);
 
-    box-shadow:0 15px 30px rgba(0,0,0,.25);
+    border-color:#657080;
+
+    background:var(--tarjeta-hover);
 
 }
 
@@ -217,7 +317,7 @@ main{
 
     object-fit:contain;
 
-    background:#f8f8f8;
+    background:var(--imagen);
 
     padding:20px;
 
@@ -225,13 +325,17 @@ main{
 
 .card-body{
 
-    padding:18px;
+    padding:16px;
 
 }
 
 .card-body h3{
 
-    margin-bottom:10px;
+    margin:6px 0 8px;
+
+    color:var(--texto-principal);
+
+    font-weight:500;
 
     text-transform:capitalize;
 
@@ -239,9 +343,9 @@ main{
 
 .id{
 
-    color:#777;
+    color:var(--texto-secundario);
 
-    font-size:.9rem;
+    font-size:.85rem;
 
 }
 
@@ -249,15 +353,19 @@ main{
 
     display:inline-block;
 
-    margin-top:10px;
+    margin-top:8px;
 
-    padding:6px 15px;
+    padding:5px 12px;
 
-    border-radius:30px;
+    border:1px solid var(--borde);
 
-    color:white;
+    border-radius:20px;
 
-    font-size:.9rem;
+    color:var(--texto);
+
+    background:var(--boton);
+
+    font-size:.8rem;
 
 }
 
@@ -271,23 +379,25 @@ main{
 
     width:100%;
 
-    border:none;
+    border:1px solid var(--borde);
 
-    padding:12px;
+    padding:10px;
 
-    background:#ef5350;
+    border-radius:5px;
 
-    color:white;
+    background:var(--boton);
+
+    color:var(--texto);
 
     cursor:pointer;
 
-    transition:.3s;
+    transition:.2s;
 
 }
 
 .card button:hover{
 
-    background:#d32f2f;
+    background:var(--boton-hover);
 
 }
 
@@ -295,15 +405,15 @@ main{
 /* PANEL LATERAL */
 /* ================================= */
 
-.pokemon-detail{
+.creature-detail{
 
-    background:white;
+    background:var(--tarjeta);
 
-    border-radius:15px;
+    border:1px solid var(--borde);
+
+    border-radius:8px;
 
     padding:20px;
-
-    box-shadow:0 8px 18px rgba(0,0,0,.15);
 
     position:sticky;
 
@@ -329,19 +439,43 @@ main{
 
     width:220px;
 
+    max-width:100%;
+
     margin:auto;
 
 }
 
 #detailContainer h2{
 
+    color:var(--texto-principal);
+
+    font-weight:500;
+
     text-transform:capitalize;
+
+}
+
+#detailContainer h3{
+
+    color:var(--texto-secundario);
+
+    font-weight:400;
+
+}
+
+#detailContainer p{
+
+    color:var(--texto);
+
+    font-size:.9rem;
 
 }
 
 .stats{
 
     margin-top:20px;
+
+    text-align:left;
 
 }
 
@@ -359,17 +493,21 @@ main{
 
     margin-bottom:5px;
 
+    color:var(--texto);
+
+    font-size:.9rem;
+
 }
 
 .progress{
 
     width:100%;
 
-    height:12px;
+    height:8px;
 
-    background:#ddd;
+    background:var(--boton);
 
-    border-radius:20px;
+    border-radius:10px;
 
     overflow:hidden;
 
@@ -381,7 +519,7 @@ main{
 
     height:100%;
 
-    background:#4caf50;
+    background:var(--progreso);
 
 }
 
@@ -395,7 +533,7 @@ main{
 
     justify-content:center;
 
-    gap:20px;
+    gap:15px;
 
     margin-top:30px;
 
@@ -403,25 +541,25 @@ main{
 
 .pagination button{
 
-    border:none;
+    border:1px solid var(--borde);
 
-    padding:12px 20px;
+    padding:10px 18px;
 
-    border-radius:8px;
+    border-radius:6px;
 
     cursor:pointer;
 
-    background:#ef5350;
+    background:var(--boton);
 
-    color:white;
+    color:var(--texto);
 
-    transition:.3s;
+    transition:.2s;
 
 }
 
 .pagination button:hover{
 
-    background:#d32f2f;
+    background:var(--boton-hover);
 
 }
 
@@ -435,7 +573,7 @@ main{
 
     inset:0;
 
-    background:rgba(255,255,255,.9);
+    background:rgba(10,12,17,.94);
 
     display:flex;
 
@@ -449,6 +587,8 @@ main{
 
     z-index:999;
 
+    color:#bfc5ce;
+
 }
 
 .hidden{
@@ -459,15 +599,15 @@ main{
 
 .loader{
 
-    width:70px;
+    width:55px;
 
-    height:70px;
+    height:55px;
 
     border-radius:50%;
 
-    border:8px solid #ddd;
+    border:5px solid #303540;
 
-    border-top:8px solid #ef5350;
+    border-top:5px solid #9baabd;
 
     animation:spin 1s linear infinite;
 
@@ -495,15 +635,19 @@ main{
 
     right:25px;
 
-    background:#d32f2f;
+    background:var(--boton);
 
-    color:white;
+    border:1px solid #555d69;
 
-    padding:15px 20px;
+    color:var(--texto);
 
-    border-radius:10px;
+    padding:14px 18px;
 
-    box-shadow:0 8px 15px rgba(0,0,0,.25);
+    border-radius:6px;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.35);
+
+    z-index:1000;
 
 }
 
@@ -515,90 +659,304 @@ footer{
 
     margin-top:30px;
 
-    background:#212121;
+    background:var(--header);
 
-    color:white;
+    color:var(--texto-secundario);
 
     text-align:center;
 
     padding:20px;
 
+    border-top:1px solid var(--borde);
+
+    font-size:.85rem;
+    /* ================================= */
+/* MAPA DE HALLOWNEST */
+/* ================================= */
+
+.hallownest-map{
+
+    max-width:1500px;
+
+    margin:30px auto;
+
+    padding:30px;
+
+    background:var(--tarjeta);
+
+    border:1px solid var(--borde);
+
+    border-radius:8px;
+
+    transition:
+        background .3s ease,
+        border-color .3s ease;
+
+    animation:mapAppear .7s ease both;
+
+}
+
+.map-title{
+
+    text-align:center;
+
+    margin-bottom:25px;
+
+}
+
+.map-title h2{
+
+    color:var(--texto-principal);
+
+    font-size:1.7rem;
+
+    font-weight:500;
+
+    margin-bottom:6px;
+
+}
+
+.map-title p{
+
+    color:var(--texto-secundario);
+
+    font-size:.9rem;
+
+}
+
+.map-container{
+
+    position:relative;
+
+    width:100%;
+
+    overflow:hidden;
+
+    border:1px solid var(--borde);
+
+    border-radius:8px;
+
+    background:var(--imagen);
+
+    box-shadow:
+        0 15px 40px rgba(0,0,0,.25);
+
 }
 
 /* ================================= */
-/* TIPOS */
+/* IMAGEN DEL MAPA */
 /* ================================= */
 
-.fire{
-    background:#F08030;
+.hallownest-map-image{
+
+    display:block;
+
+    width:100%;
+
+    height:auto;
+
+    transition:
+        transform .5s ease,
+        filter .5s ease;
+
 }
 
-.water{
-    background:#6890F0;
+/* Efecto suave al pasar el mouse */
+
+.map-container:hover .hallownest-map-image{
+
+    transform:scale(1.015);
+
+    filter:brightness(1.05);
+
 }
 
-.grass{
-    background:#78C850;
+/* ================================= */
+/* PUNTOS DEL MAPA */
+/* ================================= */
+
+.map-point{
+
+    position:absolute;
+
+    width:22px;
+
+    height:22px;
+
+    border:2px solid var(--texto-principal);
+
+    border-radius:50%;
+
+    background:var(--boton);
+
+    color:var(--texto-principal);
+
+    cursor:pointer;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:14px;
+
+    box-shadow:
+        0 0 0 0 rgba(255,255,255,.4),
+        0 0 12px rgba(255,255,255,.25);
+
+    transition:
+        transform .2s ease,
+        background .2s ease,
+        box-shadow .2s ease;
+
+    animation:mapPulse 2s infinite;
+
 }
 
-.electric{
-    background:#F8D030;
-    color:black;
+/* ================================= */
+/* HOVER DE LOS PUNTOS */
+/* ================================= */
+
+.map-point:hover{
+
+    transform:scale(1.5);
+
+    background:var(--boton-hover);
+
+    box-shadow:
+        0 0 0 7px rgba(255,255,255,.08),
+        0 0 25px rgba(255,255,255,.5);
+
+    z-index:5;
+
 }
 
-.psychic{
-    background:#F85888;
+/* ================================= */
+/* POSICIONES */
+/* ================================= */
+
+.point-crossroads{
+
+    top:42%;
+
+    left:48%;
+
 }
 
-.ice{
-    background:#98D8D8;
-    color:black;
+.point-greenpath{
+
+    top:25%;
+
+    left:35%;
+
 }
 
-.dragon{
-    background:#7038F8;
+.point-city{
+
+    top:50%;
+
+    left:63%;
+
 }
 
-.dark{
-    background:#705848;
+.point-deepnest{
+
+    top:72%;
+
+    left:38%;
+
 }
 
-.fairy{
-    background:#EE99AC;
+.point-fungal{
+
+    top:63%;
+
+    left:53%;
+
 }
 
-.fighting{
-    background:#C03028;
+/* ================================= */
+/* ANIMACIONES */
+/* ================================= */
+
+@keyframes mapAppear{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(20px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
 }
 
-.poison{
-    background:#A040A0;
+@keyframes mapPulse{
+
+    0%{
+
+        box-shadow:
+            0 0 0 0 rgba(255,255,255,.35);
+
+    }
+
+    70%{
+
+        box-shadow:
+            0 0 0 9px rgba(255,255,255,0);
+
+    }
+
+    100%{
+
+        box-shadow:
+            0 0 0 0 rgba(255,255,255,0);
+
+    }
+
 }
 
-.ground{
-    background:#E0C068;
-    color:black;
+/* ================================= */
+/* MAPA EN CELULAR */
+/* ================================= */
+
+@media(max-width:768px){
+
+    .hallownest-map{
+
+        margin:20px 15px;
+
+        padding:18px;
+
+    }
+
+    .map-title h2{
+
+        font-size:1.4rem;
+
+    }
+
+    .map-point{
+
+        width:18px;
+
+        height:18px;
+
+        font-size:11px;
+
+    }
+
 }
 
-.rock{
-    background:#B8A038;
-}
-
-.bug{
-    background:#A8B820;
-}
-
-.ghost{
-    background:#705898;
-}
-
-.steel{
-    background:#B8B8D0;
-    color:black;
-}
-
-.normal{
-    background:#A8A878;
 }
 
 /* ================================= */
@@ -613,7 +971,7 @@ footer{
 
     }
 
-    .pokemon-detail{
+    .creature-detail{
 
         position:relative;
 
@@ -661,7 +1019,7 @@ footer{
 
     }
 
-    #pokemonContainer{
+    #creatureContainer{
 
         grid-template-columns:1fr;
 
