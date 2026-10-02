@@ -1,1 +1,842 @@
-
+[
+  {
+    "id": 1,
+    "nombre": "Caballerito",
+    "tipo": "Abismo",
+    "altura": 0.30,
+    "peso": 5.0,
+    "habilidades": ["Salto de Sombra", "Venganza de los Monarcas"],
+    "descripcion": "Un misterioso viajero que llega a Hallownest para descubrir los secretos de su origen y del reino en ruinas.",
+    "stats": [
+      { "stat": { "name": "vida" }, "base_stat": 20 },
+      { "stat": { "name": "ataque" }, "base_stat": 10 }
+    ],
+    "imagen": "https://static.wikia.nocookie.net/characterprofile/images/7/7b/The_Knight_%28Hollow_Knight%29.png/revision/latest?cb=20230623081057"
+  },
+  {
+    "id": 2,
+    "nombre": "Hornet",
+    "tipo": "Nido Profundo",
+    "altura": 1.2,
+    "peso": 25.0,
+    "habilidades": ["Aguja y Seda", "Estocada Aérea"],
+    "descripcion": "Una guerrera experta que protege Hallownest y está profundamente ligada al destino del reino.",
+    "stats": [
+      { "stat": { "name": "vida" }, "base_stat": 23 },
+      { "stat": { "name": "ataque" }, "base_stat": 15 }
+    ],
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/8/89/B_Hornet.png/revision/latest/scale-to-width-down/1000?cb=20170413174908"
+  },
+  {
+    "id": 3,
+    "nombre": "Quirrel",
+    "tipo": "Lago Verde",
+    "altura": 1.0,
+    "peso": 20.0,
+    "habilidades": ["Aguja Veloz", "Conocimiento del Monje"],
+    "descripcion": "Un viajero curioso que recorre Hallownest en busca de respuestas sobre su pasado y sus misterios.",
+    "stats": [
+      { "stat": { "name": "vida" }, "base_stat": 7 },
+      { "stat": { "name": "ataque" }, "base_stat": 12 }
+    ],
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/1/1c/Quirrel2.png/revision/latest?cb=20180128203223&path-prefix=es"
+  },
+  {
+    "id": 4,
+    "nombre": "Cornifer",
+    "tipo": "Sendero Verde",
+    "altura": 1.1,
+    "peso": 45.0,
+    "habilidades": ["Eco-localización por Tarareo", "Resistencia Ambiental"],
+    "descripcion": "Un cartógrafo entusiasta que recorre Hallownest dibujando mapas mientras tararea alegremente.",
+    "stats": [
+      { "stat": { "name": "vida" }, "base_stat": 999 },
+      { "stat": { "name": "ataque" }, "base_stat": 0 }
+    ],
+    "imagen": "https://static.wikia.nocookie.net/neutral-characters/images/f/ff/Cornifer.png/revision/latest?cb=20260225101131"
+  },
+  {
+    "id": 5,
+    "nombre": "The Hollow Knight",
+    "tipo": "El Templo del Huevo Negro",
+    "altura": 2.2,
+    "peso": 80.0,
+    "habilidades": ["Triple Tajo con Aguijón", "Pilar de Infección"],
+    "descripcion": "Un receptáculo creado para contener la Infección y cargar con el destino de Hallownest.",
+    "stats": [
+      { "stat": { "name": "vida" }, "base_stat": 1250 },
+      { "stat": { "name": "ataque" }, "base_stat": 40 }
+    ],
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/1/12/B_Hollow_Knight.png/revision/latest?cb=20170412204859"
+  },
+  {
+    "id": 6,
+    "nombre": "Menderbug",
+    "tipo": "Cruces Olvidados",
+    "altura": 0.7,
+    "peso": 0.0,
+    "habilidades": ["Reparación Instantánea", "Vuelo de Escape"],
+    "descripcion": "Un pequeño insecto que repara estructuras dañadas y huye rápidamente cuando es descubierto.",
+    "stats": [
+      { "stat": { "name": "vida" }, "base_stat": 4 },
+      { "stat": { "name": "ataque" }, "base_stat": 0 }
+    ],
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/2/24/Mender_fly.png/revision/latest?cb=20190213205008"
+  },
+  {
+    "id": 7,
+    "nombre": "Padre Larva",
+    "tipo": "Cruces Olvidados",
+    "altura": 0.80,
+    "peso": 12.0,
+    "habilidades": ["Llamado de recompensa", "Llanto"],
+    "descripcion": "El cuidador de las larvas cautivas, que recompensa al Caballerito por rescatarlas.",
+    "stats": [
+      { "stat": { "name": "vida" }, "base_stat": 999 },
+      { "stat": { "name": "ataque" }, "base_stat": 0 }
+    ],
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/0/06/Npc_grubfather.png/revision/latest?cb=20190821145135&path-prefix=it"
+  },
+  {
+    "id": 8,
+    "nombre": "Zote el poderoso",
+    "tipo": "Sendero Verde",
+    "altura": 0.32,
+    "peso": 0.45,
+    "habilidades": ["Mataniñas", "Los 57 Preceptos"],
+    "descripcion": "Un pequeño guerrero extremadamente orgulloso que afirma ser mucho más poderoso de lo que realmente parece.",
+    "stats": [
+      { "stat": { "name": "vida" }, "base_stat": 999 },
+      { "stat": { "name": "ataque" }, "base_stat": 0 }
+    ],
+    "imagen": "https://static.wikia.nocookie.net/featteca/images/8/85/ZoteRender.png/revision/latest?cb=20251129160240&path-prefix=es"
+  },
+  {
+    "id": 9,
+    "nombre": "Tiso",
+    "tipo": "Cruces Olvidados",
+    "altura": 0.38,
+    "peso": 0.55,
+    "habilidades": ["Escudo-Sierra", "Provocación"],
+    "descripcion": "Un aventurero que viajó a Hallownest en busca de gloria y riquezas, armado con su enorme escudo.",
+    "stats": [
+      { "stat": { "name": "vida" }, "base_stat": 999 },
+      { "stat": { "name": "ataque" }, "base_stat": 0 }
+    ],
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/b/b1/Tiso.png/revision/latest/scale-to-width/360?cb=20190130224856"
+  },
+  {
+    "id": 10,
+    "nombre": "Cloth",
+    "tipo": "Sendero Verde",
+    "altura": 0.55,
+    "peso": 2.80,
+    "habilidades": ["Garrotazo Pesado", "Excavación de Emergencia"],
+    "descripcion": "Una guerrera viajera que busca demostrar su valor mientras se enfrenta a los peligros de Hallownest.",
+    "stats": [
+      { "stat": { "name": "vida" }, "base_stat": 999 },
+      { "stat": { "name": "ataque" }, "base_stat": 5 }
+    ],
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/5/51/Cloth.png/revision/latest?cb=20180211233445&path-prefix=es"
+  },
+  {
+    "id": 11,
+    "nombre": "Señor Seta",
+    "tipo": "Páramo Fúngico",
+    "altura": 0.42,
+    "peso": 0.35,
+    "habilidades": ["Teletransportación Fúngica", "Vuelo Esporádico"],
+    "descripcion": "Un misterioso ser fúngico que aparece en distintos lugares siguiendo un extraño propósito.",
+    "stats": [
+      { "stat": { "name": "vida" }, "base_stat": 999 },
+      { "stat": { "name": "ataque" }, "base_stat": 0 }
+    ],
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/f/fc/Mister_Mushroom.png/revision/latest/thumbnail/width/360/height/360?cb=20180215194324&path-prefix=es"
+  },
+  {
+    "id": 12,
+    "nombre": "Iselda",
+    "tipo": "Boca Sucia",
+    "altura": 0.62,
+    "peso": 0.95,
+    "habilidades": ["Comercio de Aforos", "Maestría pasada en el uso del Aguijón"],
+    "descripcion": "La esposa de Sly y encargada de la tienda de mapas, con una personalidad práctica y directa.",
+    "stats": [
+      { "stat": { "name": "vida" }, "base_stat": 999 },
+      { "stat": { "name": "ataque" }, "base_stat": 0 }
+    ],
+    "imagen": "https://www.spriters-resource.com/media/asset_icons/130/132844.png"
+  },
+  {
+    "id": 13,
+    "nombre": "Elderbug",
+    "tipo": "Boca Sucia",
+    "altura": 0.48,
+    "peso": 0.75,
+    "habilidades": ["Bienvenida Cálida", "Flor Delicada"],
+    "descripcion": "Un anciano de Boca Sucia que ofrece consejos y relatos sobre el misterioso reino.",
+    "stats": [
+      { "stat": { "name": "vida" }, "base_stat": 999 },
+      { "stat": { "name": "ataque" }, "base_stat": 0 }
+    ],
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/4/40/Elderbug.png/revision/latest/thumbnail/width/360/height/360?cb=20170823192852&path-prefix=es"
+  },
+  {
+    "id": 14,
+    "nombre": "Nosk",
+    "tipo": "Nido Profundo",
+    "altura": 1.20,
+    "peso": 45.0,
+    "habilidades": ["Mimetismo Psíquico", "Disparo de Infección"],
+    "descripcion": "Una criatura capaz de imitar apariencias para atraer a sus víctimas hacia su guarida.",
+    "stats": [
+      { "stat": { "name": "vida" }, "base_stat": 680 },
+      { "stat": { "name": "ataque" }, "base_stat": 30 }
+    ],
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/a/a8/B_Nosk.png/revision/latest?cb=20171202173434&path-prefix=es"
+  },
+  {
+    "id": 15,
+    "nombre": "Sly",
+    "tipo": "Boca Sucia",
+    "altura": 0.45,
+    "peso": 0.70,
+    "habilidades": ["Comercio", "Arte del Aguijón"],
+    "descripcion": "Un comerciante aparentemente pequeño e inofensivo que esconde un pasado relacionado con el Aguijón.",
+    "stats": [
+      { "stat": { "name": "vida" }, "base_stat": 999 },
+      { "stat": { "name": "ataque" }, "base_stat": 0 }
+    ],
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/f/f9/Sly.png/revision/latest?cb=20171109195940&path-prefix=es"
+  },
+  {
+    "id": 16,
+    "nombre": "Bretta",
+    "tipo": "Páramos Fúngicos",
+    "altura": 0.50,
+    "peso": 0.70,
+    "habilidades": ["Supervivencia", "Imaginación"],
+    "descripcion": "Una viajera tímida que termina viviendo aventuras que jamás habría imaginado.",
+    "stats": [
+      { "stat": { "name": "vida" }, "base_stat": 20 },
+      { "stat": { "name": "ataque" }, "base_stat": 0 }
+    ],
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/9/96/Bretta.png/revision/latest?cb=20180114174123"
+  },
+  {
+    "id": 17,
+    "nombre": "Myla",
+    "tipo": "Pico de Cristal",
+    "altura": 0.45,
+    "peso": 0.60,
+    "habilidades": ["Minería", "Canto"],
+    "descripcion": "Una joven minera que trabaja en el Pico de Cristal mientras canta alegremente para sí misma.",
+    "stats": [
+      { "stat": { "name": "vida" }, "base_stat": 20 },
+      { "stat": { "name": "ataque" }, "base_stat": 0 }
+    ],
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/b/b0/Myla.png/revision/latest?cb=20180129214128"
+  },
+  {
+    "id": 18,
+    "nombre": "Grimm",
+    "tipo": "Acantilados Aulladores",
+    "altura": 1.4,
+    "peso": 30.0,
+    "habilidades": ["Llamas de Grimm", "Murciélagos Carmesí"],
+    "descripcion": "El líder de la Compañía de Grimm, encargado de mantener el misterioso ritual de la Llama Carmesí.",
+    "stats": [
+      { "stat": { "name": "vida" }, "base_stat": 1000 },
+      { "stat": { "name": "ataque" }, "base_stat": 25 }
+    ],
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/5/5b/B_Grimm.png/revision/latest?cb=20180830225120"
+  },
+  {
+    "id": 19,
+    "nombre": "El Rey Pálido",
+    "tipo": "Palacio Blanco",
+    "altura": 1.8,
+    "peso": 50.0,
+    "habilidades": ["Creación", "Sabiduría"],
+    "descripcion": "El antiguo rey de Hallownest, responsable de la creación del reino y de muchos de sus secretos.",
+    "stats": [
+      { "stat": { "name": "vida" }, "base_stat": 999 },
+      { "stat": { "name": "ataque" }, "base_stat": 0 }
+    ],
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/3/32/Pale-King.png/revision/latest?cb=20180216004021&path-prefix=es"
+  },
+  {
+    "id": 20,
+    "nombre": "La Dama Blanca",
+    "tipo": "Jardines de la Reina",
+    "altura": 2.0,
+    "peso": 60.0,
+    "habilidades": ["Control de Raíces", "Creación"],
+    "descripcion": "Una poderosa criatura ancestral que habita en los Jardines de la Reina y guarda importantes secretos.",
+    "stats": [
+      { "stat": { "name": "vida" }, "base_stat": 999 },
+      { "stat": { "name": "ataque" }, "base_stat": 0 }
+    ],
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/5/55/White_Lady_Cut.png/revision/latest/scale-to-width-down/1000?cb=20180908031713"
+  },
+  {
+    "id": 21,
+    "nombre": "Ogrim",
+    "tipo": "Cañón Nublado",
+    "altura": 1.3,
+    "peso": 35.0,
+    "habilidades": ["Bolas de Sombra", "Golpe Terrestre"],
+    "descripcion": "Uno de los Cinco Grandes Guerreros, conocido por su gran fuerza y su inquebrantable lealtad.",
+    "stats": [
+      { "stat": { "name": "vida" }, "base_stat": 900 },
+      { "stat": { "name": "ataque" }, "base_stat": 25 }
+    ],
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/7/76/Dung_Defender_Idle.png/revision/latest?cb=20181129012118"
+  },
+  {
+    "id": 22,
+    "nombre": "Mato",
+    "tipo": "Acantilados Aulladores",
+    "altura": 1.0,
+    "peso": 18.0,
+    "habilidades": ["Técnicas de Aguijón", "Golpe Ciclón"],
+    "descripcion": "Uno de los Maestros del Aguijón que enseña técnicas de combate avanzadas.",
+    "stats": [
+      { "stat": { "name": "vida" }, "base_stat": 999 },
+      { "stat": { "name": "ataque" }, "base_stat": 20 }
+    ],
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/6/61/Mato.png/revision/latest?cb=20180824204812"
+  },
+  {
+    "id": 23,
+    "nombre": "Oro",
+    "tipo": "Boca Sucia",
+    "altura": 0.9,
+    "peso": 16.0,
+    "habilidades": ["Técnicas de Aguijón", "Golpe Giratorio"],
+    "descripcion": "Uno de los Maestros del Aguijón, conocido por su estilo de combate exigente y poderoso.",
+    "stats": [
+      { "stat": { "name": "vida" }, "base_stat": 999 },
+      { "stat": { "name": "ataque" }, "base_stat": 20 }
+    ],
+    "imagen": "https://static-wikia-nocookie-net.translate.goog/hollowknight/images/4/4e/Oro.png/revision/latest?cb=20221005124852&_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc"
+  },
+  {
+    "id": 24,
+    "nombre": "Sheo",
+    "tipo": "Sendero Verde",
+    "altura": 1.0,
+    "peso": 20.0,
+    "habilidades": ["Pintura", "Técnicas de Aguijón"],
+    "descripcion": "Un antiguo Maestro del Aguijón que abandonó el combate para dedicarse a la pintura.",
+    "stats": [
+      { "stat": { "name": "vida" }, "base_stat": 999 },
+      { "stat": { "name": "ataque" }, "base_stat": 20 }
+    ],
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/1/1a/NailmasterSheo.png/revision/latest?cb=20180824204656"
+  },
+  {
+    "id": 25,
+    "nombre": "Salubra",
+    "tipo": "Páramos Fúngicos",
+    "altura": 0.7,
+    "peso": 10.0,
+    "habilidades": ["Comercio de Amuletos", "Encantamiento"],
+    "descripcion": "Una comerciante especializada en amuletos que ayuda al Caballerito a ampliar su colección.",
+    "stats": [
+      { "stat": { "name": "vida" }, "base_stat": 999 },
+      { "stat": { "name": "ataque" }, "base_stat": 0 }
+    ],
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/e/ea/Salubra.png/revision/latest?cb=20180904182924"
+  },
+  {
+    "id": 26,
+    "nombre": "Tuk",
+    "tipo": "Canales Reales",
+    "altura": 0.6,
+    "peso": 8.0,
+    "habilidades": ["Comercio", "Supervivencia"],
+    "descripcion": "Una misteriosa criatura de los Canales Reales que comercia con huevos rancios.",
+    "stats": [
+      { "stat": { "name": "vida" }, "base_stat": 999 },
+      { "stat": { "name": "ataque" }, "base_stat": 0 }
+    ],
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/a/a1/Tuk.png/revision/latest?cb=20210331085512"
+  },
+  {
+    "id": 27,
+    "nombre": "Willoh",
+    "tipo": "Páramos Fúngicos",
+    "altura": 1.1,
+    "peso": 22.0,
+    "habilidades": ["Supervivencia", "Alimentación"],
+    "descripcion": "Una criatura tranquila que habita en los Páramos Fúngicos y disfruta alimentándose de hongos.",
+    "stats": [
+      { "stat": { "name": "vida" }, "base_stat": 999 },
+      { "stat": { "name": "ataque" }, "base_stat": 0 }
+    ],
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/4/43/Willoh.png/revision/latest?cb=20180216123930&path-prefix=es"
+  },
+  {
+    "id": 28,
+    "nombre": "Millibelle",
+    "tipo": "Cañón Nublado",
+    "altura": 0.8,
+    "peso": 12.0,
+    "habilidades": ["Comercio", "Ahorro"],
+    "descripcion": "Una banquera aparentemente amable que ofrece guardar los Geo de los viajeros.",
+    "stats": [
+      { "stat": { "name": "vida" }, "base_stat": 999 },
+      { "stat": { "name": "ataque" }, "base_stat": 0 }
+    ],
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/2/24/Millibelle.png/revision/latest?cb=20180211221457&path-prefix=es"
+  },
+  {
+    "id": 29,
+    "nombre": "Vespa",
+    "tipo": "Páramos Fúngicos",
+    "altura": 0.5,
+    "peso": 3.0,
+    "habilidades": ["Vuelo", "Picadura"],
+    "descripcion": "El espíritu de una antigua guerrera ligada a la tribu de las polillas y a los recuerdos de Hallownest.",
+    "stats": [
+      { "stat": { "name": "vida" }, "base_stat": 30 },
+      { "stat": { "name": "ataque" }, "base_stat": 8 }
+    ],
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/f/f1/Vespa.png/revision/latest?cb=20181211191213"
+  },
+  {
+    "id": 30,
+    "nombre": "Brumm",
+    "tipo": "Acantilados Aulladores",
+    "altura": 1.0,
+    "peso": 18.0,
+    "habilidades": ["Magia Carmesí", "Manipulación de la Llama"],
+    "descripcion": "Un antiguo miembro de la Compañía de Grimm que comienza a cuestionar su papel dentro del ritual.",
+    "stats": [
+      { "stat": { "name": "vida" }, "base_stat": 999 },
+      { "stat": { "name": "ataque" }, "base_stat": 5 }
+    ],
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/b/bf/Brumm_Tent.png/revision/latest?cb=20180921144946"
+  },
+  {
+    "id": 31,
+    "nombre": "Nailsmith",
+    "tipo": "Boca Sucia",
+    "altura": 0.8,
+    "peso": 15.0,
+    "habilidades": ["Forja de Aguijones", "Perfeccionamiento"],
+    "descripcion": "Un herrero dedicado por completo a perfeccionar el Aguijón de los guerreros de Hallownest.",
+    "stats": [
+      { "stat": { "name": "vida" }, "base_stat": 999 },
+      { "stat": { "name": "ataque" }, "base_stat": 0 }
+    ],
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/f/f6/Nailsmith_2.png/revision/latest?cb=20180829024237"
+  },
+  {
+    "id": 32,
+    "nombre": "Confesor Jiji",
+    "tipo": "Boca Sucia",
+    "altura": 0.7,
+    "peso": 10.0,
+    "habilidades": ["Invocación de Espíritus", "Intercambio"],
+    "descripcion": "Una misteriosa criatura que puede comunicarse con espíritus y ayudar al Caballerito a recuperar su sombra.",
+    "stats": [
+      { "stat": { "name": "vida" }, "base_stat": 999 },
+      { "stat": { "name": "ataque" }, "base_stat": 0 }
+    ],
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/6/65/Confessor_Jiji.png/revision/latest?cb=20180210231921&path-prefix=es"
+  },
+  {
+    "id": 33,
+    "nombre": "Mask Maker",
+    "tipo": "Nido Profundo",
+    "altura": 1.1,
+    "peso": 20.0,
+    "habilidades": ["Creación de Máscaras", "Conocimiento Antiguo"],
+    "descripcion": "Un extraño artesano que crea máscaras y parece conocer secretos muy antiguos de Hallownest.",
+    "stats": [
+      { "stat": { "name": "vida" }, "base_stat": 999 },
+      { "stat": { "name": "ataque" }, "base_stat": 0 }
+    ],
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/5/5a/Mask_Maker_Mask_2.png/revision/latest?cb=20210604131014"
+  },
+  {
+    "id": 34,
+    "nombre": "Midwife",
+    "tipo": "Nido Profundo",
+    "altura": 1.0,
+    "peso": 18.0,
+    "habilidades": ["Emboscada", "Mordida"],
+    "descripcion": "Una misteriosa criatura que habita en Nido Profundo y observa a los viajeros desde las sombras.",
+    "stats": [
+      { "stat": { "name": "vida" }, "base_stat": 999 },
+      { "stat": { "name": "ataque" }, "base_stat": 15 }
+    ],
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/e/ed/Midwife.png/revision/latest?cb=20170417120123"
+  },
+  {
+    "id": 35,
+    "nombre": "Buscador de reliquias Lemm",
+    "tipo": "Ciudad de Lágrimas",
+    "altura": 0.9,
+    "peso": 14.0,
+    "habilidades": ["Investigación", "Tasación de Reliquias"],
+    "descripcion": "Un coleccionista de reliquias obsesionado con descubrir los secretos del antiguo Hallownest.",
+    "stats": [
+      { "stat": { "name": "vida" }, "base_stat": 999 },
+      { "stat": { "name": "ataque" }, "base_stat": 0 }
+    ],
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/e/ea/Lemm_Desk.png/revision/latest?cb=20180916003218"
+  },
+  {
+    "id": 36,
+    "nombre": "Emilitia",
+    "tipo": "Ciudad de Lágrimas",
+    "altura": 0.9,
+    "peso": 16.0,
+    "habilidades": ["Nobleza", "Supervivencia"],
+    "descripcion": "Una noble superviviente de la caída de Hallownest que disfruta de la comodidad de su escondite.",
+    "stats": [
+      { "stat": { "name": "vida" }, "base_stat": 999 },
+      { "stat": { "name": "ataque" }, "base_stat": 0 }
+    ],
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/9/98/Eternal.png/revision/latest?cb=20180212235841&path-prefix=es"
+  },
+  {
+    "id": 37,
+    "nombre": "Chamán Caracol",
+    "tipo": "Túmulo Ancestral",
+    "altura": 0.9,
+    "peso": 14.0,
+    "habilidades": ["Hechicería", "Conocimiento de Hechizos"],
+    "descripcion": "Un antiguo chamán que utiliza magia para enseñar al Caballerito poderosos hechizos.",
+    "stats": [
+      { "stat": { "name": "vida" }, "base_stat": 999 },
+      { "stat": { "name": "ataque" }, "base_stat": 10 }
+    ],
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/3/38/Snail_Shaman.png/revision/latest?cb=20170413173429"
+  },
+  {
+    "id": 38,
+    "nombre": "La Vidente",
+    "tipo": "Tierras de Reposo",
+    "altura": 0.8,
+    "peso": 10.0,
+    "habilidades": ["Esencia", "Visiones"],
+    "descripcion": "Una anciana de la tribu de las polillas que guía al Caballerito en la búsqueda de la Esencia.",
+    "stats": [
+      { "stat": { "name": "vida" }, "base_stat": 999 },
+      { "stat": { "name": "ataque" }, "base_stat": 0 }
+    ],
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/e/ee/Seer.png/revision/latest?cb=20171206183815&path-prefix=es"
+  },
+  {
+    "id": 39,
+    "nombre": "Herrah la Bestia",
+    "tipo": "Nido Profundo",
+    "altura": 2.0,
+    "peso": 55.0,
+    "habilidades": ["Tejido", "Protección del Nido"],
+    "descripcion": "Una de las tres Soñadoras y antigua reina de Nido Profundo, perteneciente a la tribu de las tejedoras.",
+    "stats": [
+      { "stat": { "name": "vida" }, "base_stat": 999 },
+      { "stat": { "name": "ataque" }, "base_stat": 0 }
+    ],
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/b/bc/B_Herrah.png/revision/latest?cb=20200602141649"
+  },
+  {
+    "id": 40,
+    "nombre": "Monomon la Maestra",
+    "tipo": "Cañón Nublado",
+    "altura": 1.7,
+    "peso": 40.0,
+    "habilidades": ["Conocimiento", "Investigación"],
+    "descripcion": "Una de las tres Soñadoras, dedicada al conocimiento y a la investigación de los misterios de Hallownest.",
+    "stats": [
+      { "stat": { "name": "vida" }, "base_stat": 999 },
+      { "stat": { "name": "ataque" }, "base_stat": 0 }
+    ],
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/e/e9/B_Monomon.png/revision/latest?cb=20180128201852&path-prefix=es"
+  },
+  {
+    "id": 41,
+    "nombre": "Lurien el Vigilante",
+    "tipo": "Ciudad de Lágrimas",
+    "altura": 1.6,
+    "peso": 35.0,
+    "habilidades": ["Vigilancia", "Observación"],
+    "descripcion": "Uno de los tres Soñadores, encargado de vigilar la Ciudad de Lágrimas desde su torre.",
+    "stats": [
+      { "stat": { "name": "vida" }, "base_stat": 999 },
+      { "stat": { "name": "ataque" }, "base_stat": 0 }
+    ],
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/c/ce/B_Lurien.png/revision/latest?cb=20200602141133"
+  },
+  {
+    "id": 42,
+    "nombre": "Uumuu",
+    "tipo": "Cañón Nublado",
+    "altura": 1.80,
+    "peso": 35.0,
+    "habilidades": ["Persecucion electrica", "Descarga Electrica"],
+    "descripcion": "Una criatura eléctrica que protege los secretos del Cañón Nublado y sirve como guardián de una Soñadora.",
+    "stats": [
+      { "stat": { "name": "vida" }, "base_stat": 300 },
+      { "stat": { "name": "ataque" }, "base_stat": 15 }
+    ],
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/4/49/B_Uumuu.png/revision/latest?cb=20171202220309&path-prefix=es"
+  },
+  {
+    "id": 43,
+    "nombre": "El Último Ciervo",
+    "tipo": "Hallownest",
+    "altura": 1.8,
+    "peso": 45.0,
+    "habilidades": ["Viaje Rápido", "Conocimiento de Hallownest"],
+    "descripcion": "El último miembro conocido de una antigua especie de ciervos que conectaba las distintas estaciones de Hallownest.",
+    "stats": [
+      { "stat": { "name": "vida" }, "base_stat": 999 },
+      { "stat": { "name": "ataque" }, "base_stat": 0 }
+    ],
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/d/de/Laststag.png/revision/latest?cb=20200928205808"
+  },
+  {
+    "id": 44,
+    "nombre": "Bardoon",
+    "tipo": "Acantilados Aulladores",
+    "altura": 2.5,
+    "peso": 100.0,
+    "habilidades": ["Sabiduría", "Conocimiento de Hallownest"],
+    "descripcion": "Una enorme criatura que vive en los Acantilados Aulladores y contempla tranquilamente el mundo desde las alturas.",
+    "stats": [
+      { "stat": { "name": "vida" }, "base_stat": 999 },
+      { "stat": { "name": "ataque" }, "base_stat": 0 }
+    ],
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/2/24/Bardoon.png/revision/latest?cb=20180212215159&path-prefix=es"
+  },
+  {
+    "id": 45,
+    "nombre": "Comepiernas",
+    "tipo": "Páramos Fúngicos",
+    "altura": 0.8,
+    "peso": 12.0,
+    "habilidades": ["Excavación", "Emboscada"],
+    "descripcion": "Un comerciante obsesionado con los amuletos que vive escondido en los Páramos Fúngicos.",
+    "stats": [
+      { "stat": { "name": "vida" }, "base_stat": 80 },
+      { "stat": { "name": "ataque" }, "base_stat": 15 }
+    ],
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/f/f6/Legeater.png/revision/latest?cb=20180204123514&path-prefix=es"
+  },
+  {
+    "id": 46,
+    "nombre": "Godseeker",
+    "tipo": "Basurero",
+    "altura": 1.2,
+    "peso": 25.0,
+    "habilidades": ["Sintonización", "Búsqueda de Dioses"],
+    "descripcion": "Una misteriosa buscadora dedicada a encontrar y sintonizarse con entidades consideradas dioses.",
+    "stats": [
+      { "stat": { "name": "vida" }, "base_stat": 999 },
+      { "stat": { "name": "ataque" }, "base_stat": 0 }
+    ],
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/d/d2/Godseeker.png/revision/latest?cb=20180824141951"
+  },
+  {
+    "id": 47,
+    "nombre": "Divine",
+    "tipo": "Acantilados Aulladores",
+    "altura": 1.1,
+    "peso": 20.0,
+    "habilidades": ["Devorar Amuletos", "Fortalecimiento"],
+    "descripcion": "Una integrante de la Compañía de Grimm capaz de consumir amuletos para fortalecerlos.",
+    "stats": [
+      { "stat": { "name": "vida" }, "base_stat": 999 },
+      { "stat": { "name": "ataque" }, "base_stat": 0 }
+    ],
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/f/f8/Divine02.png/revision/latest?cb=20180118101742&path-prefix=es"
+  },
+  {
+    "id": 48,
+    "nombre": "Nymm",
+    "tipo": "Acantilados Aulladores",
+    "altura": 0.8,
+    "peso": 10.0,
+    "habilidades": ["Música", "Viaje"],
+    "descripcion": "Un viajero misterioso que comparte música, historias y recuerdos con quienes encuentra.",
+    "stats": [
+      { "stat": { "name": "vida" }, "base_stat": 999 },
+      { "stat": { "name": "ataque" }, "base_stat": 0 }
+    ],
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/4/4e/Nymm.png/revision/latest?cb=20180216131029"
+  },
+  {
+    "id": 49,
+    "nombre": "El Coleccionista",
+    "tipo": "Torre del Amor",
+    "altura": 2.0,
+    "peso": 40.0,
+    "habilidades": ["Colección", "Captura"],
+    "descripcion": "Una criatura creada para capturar seres vivos y almacenarlos dentro de la Torre del Amor.",
+    "stats": [
+      { "stat": { "name": "vida" }, "base_stat": 750 },
+      { "stat": { "name": "ataque" }, "base_stat": 20 }
+    ],
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/6/68/B_TheCollector.png/revision/latest?cb=20171202131252&path-prefix=es"
+  },
+  {
+    "id": 50,
+    "nombre": "Marmu",
+    "tipo": "Jardines de la Reina",
+    "altura": 0.7,
+    "peso": 8.0,
+    "habilidades": ["Rebote", "Rodar"],
+    "descripcion": "El espíritu de una pequeña guerrera que soñaba con proteger los Jardines de la Reina.",
+    "stats": [
+      { "stat": { "name": "vida" }, "base_stat": 250 },
+      { "stat": { "name": "ataque" }, "base_stat": 10 }
+    ],
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/2/29/HJ_Marmu.png/revision/latest?cb=20180202232145"
+  },
+  {
+    "id": 51,
+    "nombre": "Galien",
+    "tipo": "Nido Profundo",
+    "altura": 1.0,
+    "peso": 15.0,
+    "habilidades": ["Guadaña Espiritual", "Telequinesis"],
+    "descripcion": "El espíritu de un guerrero que desafía al Caballerito utilizando una enorme guadaña espiritual.",
+    "stats": [
+      { "stat": { "name": "vida" }, "base_stat": 200 },
+      { "stat": { "name": "ataque" }, "base_stat": 15 }
+    ],
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/e/ee/HJ_Galien.png/revision/latest?cb=20180202184121"
+  },
+  {
+    "id": 52,
+    "nombre": "Markoth",
+    "tipo": "Tierras de Reposo",
+    "altura": 1.2,
+    "peso": 18.0,
+    "habilidades": ["Escudos", "Arma Espiritual"],
+    "descripcion": "Un antiguo guerrero que luchó para proteger sus creencias y utiliza escudos espirituales en combate.",
+    "stats": [
+      { "stat": { "name": "vida" }, "base_stat": 250 },
+      { "stat": { "name": "ataque" }, "base_stat": 15 }
+    ],
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/4/4a/HJ_Markoth.png/revision/latest?cb=20170409173511"
+  },
+  {
+    "id": 53,
+    "nombre": "Xero",
+    "tipo": "Tierras de Reposo",
+    "altura": 1.0,
+    "peso": 15.0,
+    "habilidades": ["Espadas Espirituales", "Telequinesis"],
+    "descripcion": "El espíritu de un guerrero que busca redención mientras combate desde el más allá.",
+    "stats": [
+      { "stat": { "name": "vida" }, "base_stat": 200 },
+      { "stat": { "name": "ataque" }, "base_stat": 10 }
+    ],
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/f/f9/HJ_Xero.png/revision/latest?cb=20180202234043"
+  },
+  {
+    "id": 54,
+    "nombre": "Gorb",
+    "tipo": "Acantilados Aulladores",
+    "altura": 0.9,
+    "peso": 12.0,
+    "habilidades": ["Mente Iluminada", "Proyectiles Espirituales"],
+    "descripcion": "Un guerrero espiritual que afirma haber alcanzado la iluminación y ataca con energía desde los cielos.",
+    "stats": [
+      { "stat": { "name": "vida" }, "base_stat": 200 },
+      { "stat": { "name": "ataque" }, "base_stat": 10 }
+    ],
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/3/33/HJ_Gorb.png/revision/latest?cb=20180202192847"
+  },
+  {
+    "id": 55,
+    "nombre": "No Eyes",
+    "tipo": "Sendero Verde",
+    "altura": 1.1,
+    "peso": 16.0,
+    "habilidades": ["Espíritus", "Ceguera"],
+    "descripcion": "El espíritu de una guerrera que perdió la vista y quedó atormentada por los recuerdos de su pasado.",
+    "stats": [
+      { "stat": { "name": "vida" }, "base_stat": 200 },
+      { "stat": { "name": "ataque" }, "base_stat": 10 }
+    ],
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/5/5b/HJ_No_Eyes.png/revision/latest?cb=20170409173635"
+  },
+  {
+    "id": 56,
+    "nombre": "Elder Hu",
+    "tipo": "Páramos Fúngicos",
+    "altura": 1.2,
+    "peso": 20.0,
+    "habilidades": ["Anillos Espirituales", "Meditación"],
+    "descripcion": "Un antiguo maestro que recorre Hallownest como espíritu y utiliza ondas de energía para combatir.",
+    "stats": [
+      { "stat": { "name": "vida" }, "base_stat": 250 },
+      { "stat": { "name": "ataque" }, "base_stat": 12 }
+    ],
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/0/01/HJ_Elder_Hu.png/revision/latest?cb=20180202182436&path-prefix=es"
+  },
+  {
+    "id": 57,
+    "nombre": "Flukemarm",
+    "tipo": "Canales Reales",
+    "altura": 1.5,
+    "peso": 35.0,
+    "habilidades": ["Invocación de Flukes", "Procreación"],
+    "descripcion": "Una enorme criatura que protege su nido y utiliza pequeños Flukes para defenderse de sus enemigos.",
+    "stats": [
+      { "stat": { "name": "vida" }, "base_stat": 350 },
+      { "stat": { "name": "ataque" }, "base_stat": 10 }
+    ],
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/1/1b/B_Flukemarm.png/revision/latest?cb=20170412131642"
+  },
+  {
+    "id": 58,
+    "nombre": "Maestro de almas",
+    "tipo": "Ciudad de Lágrimas",
+    "altura": 2.10,
+    "peso": 65.0,
+    "habilidades": ["Proyectiles de alma", "Golpe descendente"],
+    "descripcion": "Un poderoso hechicero que utilizó el poder del Alma para intentar alcanzar una forma superior de existencia.",
+    "stats": [
+      { "stat": { "name": "vida" }, "base_stat": 275 },
+      { "stat": { "name": "ataque" }, "base_stat": 15 }
+    ],
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/c/cf/B_Soulmaster.png/revision/latest?cb=20180821144031"
+  },
+  {
+    "id": 59,
+    "nombre": "Hive Knight",
+    "tipo": "La Colmena",
+    "altura": 1.4,
+    "peso": 25.0,
+    "habilidades": ["Aguijón", "Picadura de Abeja"],
+    "descripcion": "Un guerrero de la Colmena que protege a su reina y lucha con una velocidad sorprendente.",
+    "stats": [
+      { "stat": { "name": "vida" }, "base_stat": 550 },
+      { "stat": { "name": "ataque" }, "base_stat": 20 }
+    ],
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/a/a0/Hive_knight.png/revision/latest?cb=20180429181144"
+  },
+  {
+    "id": 60,
+    "nombre": "Traitor Lord",
+    "tipo": "Jardines de la Reina",
+    "altura": 1.6,
+    "peso": 40.0,
+    "habilidades": ["Guadañas", "Embestida"],
+    "descripcion": "Un antiguo líder de los Mantis que abandonó a su tribu y se convirtió en un poderoso guerrero.",
+    "stats": [
+      { "stat": { "name": "vida" }, "base_stat": 800 },
+      { "stat": { "name": "ataque" }, "base_stat": 25 }
+    ],
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/2/2c/B_Traitor_Lord.png/revision/latest?cb=20170412201256"
+  }
+]
