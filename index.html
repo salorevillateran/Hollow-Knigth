@@ -25,9 +25,7 @@
 
 <body>
 
-    <!-- ========================= -->
     <!-- HEADER -->
-    <!-- ========================= -->
 
     <header>
 
@@ -60,27 +58,33 @@
 
             </button>
 
+            <!-- BOTÓN MODO CLARO / OSCURO -->
+
+            <button id="themeButton"
+                    class="theme-button"
+                    aria-label="Cambiar tema">
+
+                ☽
+
+            </button>
+
         </div>
 
     </header>
 
-    <!-- ========================= -->
     <!-- MAIN -->
-    <!-- ========================= -->
 
     <main>
 
-        <!-- ========================= -->
-        <!-- LISTA -->
-        <!-- ========================= -->
+        <!-- LISTA DE CRIATURAS -->
 
-        <section class="pokemon-list">
+        <section class="creature-list">
 
             <div class="section-title">
 
                 <h2>Criaturas de Hallownest</h2>
 
-                <span id="pokemonCounter">
+                <span id="creatureCounter">
 
                     0 criaturas
 
@@ -88,9 +92,9 @@
 
             </div>
 
-            <div id="pokemonContainer">
+            <div id="creatureContainer">
 
-                <!-- JavaScript -->
+                <!-- Las criaturas aparecen con JavaScript -->
 
             </div>
 
@@ -112,17 +116,15 @@
 
         </section>
 
-        <!-- ========================= -->
         <!-- DETALLE -->
-        <!-- ========================= -->
 
-        <aside class="pokemon-detail">
+        <aside class="creature-detail">
 
             <div id="detailContainer">
 
                 <img
-                    src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png"
-                    alt="Criatura">
+                    src="https://static.wikia.nocookie.net/hollowknight/images/2/27/The_Knight.png/revision/latest/scale-to-width-down/1000?cb=20170712213446"
+                    alt="Criatura de Hallownest">
 
                 <h2>
 
@@ -141,10 +143,37 @@
         </aside>
 
     </main>
+    </main>
 
-    <!-- ========================= -->
+<!-- MAPA DE HALLOWNEST -->
+
+<section class="hallownest-map">
+
+    <div class="map-title">
+
+        <h2>Mapa de Hallownest</h2>
+
+        <p>
+            Explora las regiones del reino y descubre dónde habitan sus criaturas.
+        </p>
+
+    </div>
+
+    <div class="map-container">
+
+        <img
+            src="https://static.wikia.nocookie.net/hollowknight/images/d/d9/NavMap.png/revision/latest/scale-to-width-down/630?cb=20180214020056&path-prefix=es"
+            alt="Mapa de Hallownest"
+            class="hallownest-map-image"
+        >
+
+    </div>
+
+</section>
+
+<!-- LOADING -->
+
     <!-- LOADING -->
-    <!-- ========================= -->
 
     <div id="loading" class="hidden">
 
@@ -152,26 +181,21 @@
 
         <p>
 
-            Explorando los rincones de Hallownest…
+            Explorando los rincones de Hallownest...
 
         </p>
 
     </div>
 
-    <!-- ========================= -->
     <!-- ERROR -->
-    <!-- ========================= -->
 
-    <div id="errorMessage"
-         class="hidden">
+    <div id="errorMessage" class="hidden">
 
-        Entrada inexistente en el bestiario.
+        No se encontró ninguna criatura.
 
     </div>
 
-    <!-- ========================= -->
     <!-- FOOTER -->
-    <!-- ========================= -->
 
     <footer>
 
