@@ -7,7 +7,7 @@
 // BASE DE DATOS LOCAL DE PERSONAJES
 // ==============================
 
-let personajesHollowKnight = [];
+let personajesHollowKnight = "./personajes.json";
 
 
 // ==============================
