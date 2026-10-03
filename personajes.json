@@ -3,7 +3,7 @@
     "id": 1,
     "nombre": "Caballerito",
     "tipo": "Abismo",
-    "altura": 0.30,
+    "altura": 0.3,
     "peso": 5.0,
     "habilidades": ["Salto de Sombra", "Venganza de los Monarcas"],
     "descripcion": "Un misterioso viajero que llega a Hallownest para descubrir los secretos de su origen y del reino en ruinas.",
@@ -11,7 +11,8 @@
       { "stat": { "name": "vida" }, "base_stat": 20 },
       { "stat": { "name": "ataque" }, "base_stat": 10 }
     ],
-    "imagen": "https://static.wikia.nocookie.net/characterprofile/images/7/7b/The_Knight_%28Hollow_Knight%29.png/revision/latest?cb=20230623081057"
+    "imagen": "https://static.wikia.nocookie.net/characterprofile/images/7/7b/The_Knight_%28Hollow_Knight%29.png/revision/latest?cb=20230623081057",
+    "coords": { "x": 48.0, "y": 90.0 }
   },
   {
     "id": 2,
@@ -25,7 +26,8 @@
       { "stat": { "name": "vida" }, "base_stat": 23 },
       { "stat": { "name": "ataque" }, "base_stat": 15 }
     ],
-    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/8/89/B_Hornet.png/revision/latest/scale-to-width-down/1000?cb=20170413174908"
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/8/89/B_Hornet.png/revision/latest/scale-to-width-down/1000?cb=20170413174908",
+    "coords": { "x": 28.0, "y": 38.0 }
   },
   {
     "id": 3,
@@ -39,7 +41,8 @@
       { "stat": { "name": "vida" }, "base_stat": 7 },
       { "stat": { "name": "ataque" }, "base_stat": 12 }
     ],
-    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/1/1c/Quirrel2.png/revision/latest?cb=20180128203223&path-prefix=es"
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/1/1c/Quirrel2.png/revision/latest?cb=20180128203223&path-prefix=es",
+    "coords": { "x": 78.0, "y": 32.0 }
   },
   {
     "id": 4,
@@ -53,7 +56,8 @@
       { "stat": { "name": "vida" }, "base_stat": 999 },
       { "stat": { "name": "ataque" }, "base_stat": 0 }
     ],
-    "imagen": "https://static.wikia.nocookie.net/neutral-characters/images/f/ff/Cornifer.png/revision/latest?cb=20260225101131"
+    "imagen": "https://static.wikia.nocookie.net/neutral-characters/images/f/ff/Cornifer.png/revision/latest?cb=20260225101131",
+    "coords": { "x": 30.0, "y": 35.0 }
   },
   {
     "id": 5,
@@ -67,7 +71,8 @@
       { "stat": { "name": "vida" }, "base_stat": 1250 },
       { "stat": { "name": "ataque" }, "base_stat": 40 }
     ],
-    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/1/12/B_Hollow_Knight.png/revision/latest?cb=20170412204859"
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/1/12/B_Hollow_Knight.png/revision/latest?cb=20170412204859",
+    "coords": { "x": 48.0, "y": 30.0 }
   },
   {
     "id": 6,
@@ -81,13 +86,14 @@
       { "stat": { "name": "vida" }, "base_stat": 4 },
       { "stat": { "name": "ataque" }, "base_stat": 0 }
     ],
-    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/2/24/Mender_fly.png/revision/latest?cb=20190213205008"
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/2/24/Mender_fly.png/revision/latest?cb=20190213205008",
+    "coords": { "x": 46.0, "y": 28.0 }
   },
   {
     "id": 7,
     "nombre": "Padre Larva",
     "tipo": "Cruces Olvidados",
-    "altura": 0.80,
+    "altura": 0.8,
     "peso": 12.0,
     "habilidades": ["Llamado de recompensa", "Llanto"],
     "descripcion": "El cuidador de las larvas cautivas, que recompensa al Caballerito por rescatarlas.",
@@ -95,7 +101,8 @@
       { "stat": { "name": "vida" }, "base_stat": 999 },
       { "stat": { "name": "ataque" }, "base_stat": 0 }
     ],
-    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/0/06/Npc_grubfather.png/revision/latest?cb=20190821145135&path-prefix=it"
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/0/06/Npc_grubfather.png/revision/latest?cb=20190821145135&path-prefix=it",
+    "coords": { "x": 42.0, "y": 26.0 }
   },
   {
     "id": 8,
@@ -109,7 +116,8 @@
       { "stat": { "name": "vida" }, "base_stat": 999 },
       { "stat": { "name": "ataque" }, "base_stat": 0 }
     ],
-    "imagen": "https://static.wikia.nocookie.net/featteca/images/8/85/ZoteRender.png/revision/latest?cb=20251129160240&path-prefix=es"
+    "imagen": "https://static.wikia.nocookie.net/featteca/images/8/85/ZoteRender.png/revision/latest?cb=20251129160240&path-prefix=es",
+    "coords": { "x": 26.0, "y": 32.0 }
   },
   {
     "id": 9,
@@ -123,21 +131,23 @@
       { "stat": { "name": "vida" }, "base_stat": 999 },
       { "stat": { "name": "ataque" }, "base_stat": 0 }
     ],
-    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/b/b1/Tiso.png/revision/latest/scale-to-width/360?cb=20190130224856"
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/b/b1/Tiso.png/revision/latest/scale-to-width/360?cb=20190130224856",
+    "coords": { "x": 51.0, "y": 31.0 }
   },
   {
     "id": 10,
     "nombre": "Cloth",
     "tipo": "Sendero Verde",
     "altura": 0.55,
-    "peso": 2.80,
+    "peso": 2.8,
     "habilidades": ["Garrotazo Pesado", "Excavación de Emergencia"],
     "descripcion": "Una guerrera viajera que busca demostrar su valor mientras se enfrenta a los peligros de Hallownest.",
     "stats": [
       { "stat": { "name": "vida" }, "base_stat": 999 },
       { "stat": { "name": "ataque" }, "base_stat": 5 }
     ],
-    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/5/51/Cloth.png/revision/latest?cb=20180211233445&path-prefix=es"
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/5/51/Cloth.png/revision/latest?cb=20180211233445&path-prefix=es",
+    "coords": { "x": 32.0, "y": 42.0 }
   },
   {
     "id": 11,
@@ -151,7 +161,8 @@
       { "stat": { "name": "vida" }, "base_stat": 999 },
       { "stat": { "name": "ataque" }, "base_stat": 0 }
     ],
-    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/f/fc/Mister_Mushroom.png/revision/latest/thumbnail/width/360/height/360?cb=20180215194324&path-prefix=es"
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/f/fc/Mister_Mushroom.png/revision/latest/thumbnail/width/360/height/360?cb=20180215194324&path-prefix=es",
+    "coords": { "x": 40.0, "y": 50.0 }
   },
   {
     "id": 12,
@@ -160,12 +171,13 @@
     "altura": 0.62,
     "peso": 0.95,
     "habilidades": ["Comercio de Aforos", "Maestría pasada en el uso del Aguijón"],
-    "descripcion": "La esposa de Sly y encargada de la tienda de mapas, con una personalidad práctica y directa.",
+    "descripcion": "La esposa de Cornifer y encargada de la tienda de mapas, con una personalidad práctica y directa.",
     "stats": [
       { "stat": { "name": "vida" }, "base_stat": 999 },
       { "stat": { "name": "ataque" }, "base_stat": 0 }
     ],
-    "imagen": "https://www.spriters-resource.com/media/asset_icons/130/132844.png"
+    "imagen": "https://www.spriters-resource.com/media/asset_icons/130/132844.png",
+    "coords": { "x": 49.0, "y": 14.0 }
   },
   {
     "id": 13,
@@ -179,13 +191,14 @@
       { "stat": { "name": "vida" }, "base_stat": 999 },
       { "stat": { "name": "ataque" }, "base_stat": 0 }
     ],
-    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/4/40/Elderbug.png/revision/latest/thumbnail/width/360/height/360?cb=20170823192852&path-prefix=es"
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/4/40/Elderbug.png/revision/latest/thumbnail/width/360/height/360?cb=20170823192852&path-prefix=es",
+    "coords": { "x": 46.5, "y": 15.0 }
   },
   {
     "id": 14,
     "nombre": "Nosk",
     "tipo": "Nido Profundo",
-    "altura": 1.20,
+    "altura": 1.2,
     "peso": 45.0,
     "habilidades": ["Mimetismo Psíquico", "Disparo de Infección"],
     "descripcion": "Una criatura capaz de imitar apariencias para atraer a sus víctimas hacia su guarida.",
@@ -193,54 +206,58 @@
       { "stat": { "name": "vida" }, "base_stat": 680 },
       { "stat": { "name": "ataque" }, "base_stat": 30 }
     ],
-    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/a/a8/B_Nosk.png/revision/latest?cb=20171202173434&path-prefix=es"
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/a/a8/B_Nosk.png/revision/latest?cb=20171202173434&path-prefix=es",
+    "coords": { "x": 20.0, "y": 68.0 }
   },
   {
     "id": 15,
     "nombre": "Sly",
     "tipo": "Boca Sucia",
     "altura": 0.45,
-    "peso": 0.70,
+    "peso": 0.7,
     "habilidades": ["Comercio", "Arte del Aguijón"],
     "descripcion": "Un comerciante aparentemente pequeño e inofensivo que esconde un pasado relacionado con el Aguijón.",
     "stats": [
       { "stat": { "name": "vida" }, "base_stat": 999 },
       { "stat": { "name": "ataque" }, "base_stat": 0 }
     ],
-    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/f/f9/Sly.png/revision/latest?cb=20171109195940&path-prefix=es"
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/f/f9/Sly.png/revision/latest?cb=20171109195940&path-prefix=es",
+    "coords": { "x": 51.5, "y": 14.5 }
   },
   {
     "id": 16,
     "nombre": "Bretta",
     "tipo": "Páramos Fúngicos",
-    "altura": 0.50,
-    "peso": 0.70,
+    "altura": 0.5,
+    "peso": 0.7,
     "habilidades": ["Supervivencia", "Imaginación"],
     "descripcion": "Una viajera tímida que termina viviendo aventuras que jamás habría imaginado.",
     "stats": [
       { "stat": { "name": "vida" }, "base_stat": 20 },
       { "stat": { "name": "ataque" }, "base_stat": 0 }
     ],
-    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/9/96/Bretta.png/revision/latest?cb=20180114174123"
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/9/96/Bretta.png/revision/latest?cb=20180114174123",
+    "coords": { "x": 42.0, "y": 55.0 }
   },
   {
     "id": 17,
     "nombre": "Myla",
     "tipo": "Pico de Cristal",
     "altura": 0.45,
-    "peso": 0.60,
+    "peso": 0.6,
     "habilidades": ["Minería", "Canto"],
     "descripcion": "Una joven minera que trabaja en el Pico de Cristal mientras canta alegremente para sí misma.",
     "stats": [
       { "stat": { "name": "vida" }, "base_stat": 20 },
       { "stat": { "name": "ataque" }, "base_stat": 0 }
     ],
-    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/b/b0/Myla.png/revision/latest?cb=20180129214128"
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/b/b0/Myla.png/revision/latest?cb=20180129214128",
+    "coords": { "x": 68.0, "y": 22.0 }
   },
   {
     "id": 18,
     "nombre": "Grimm",
-    "tipo": "Acantilados Aulladores",
+    "tipo": "Boca Sucia",
     "altura": 1.4,
     "peso": 30.0,
     "habilidades": ["Llamas de Grimm", "Murciélagos Carmesí"],
@@ -249,7 +266,8 @@
       { "stat": { "name": "vida" }, "base_stat": 1000 },
       { "stat": { "name": "ataque" }, "base_stat": 25 }
     ],
-    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/5/5b/B_Grimm.png/revision/latest?cb=20180830225120"
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/5/5b/B_Grimm.png/revision/latest?cb=20180830225120",
+    "coords": { "x": 44.0, "y": 14.0 }
   },
   {
     "id": 19,
@@ -263,7 +281,8 @@
       { "stat": { "name": "vida" }, "base_stat": 999 },
       { "stat": { "name": "ataque" }, "base_stat": 0 }
     ],
-    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/3/32/Pale-King.png/revision/latest?cb=20180216004021&path-prefix=es"
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/3/32/Pale-King.png/revision/latest?cb=20180216004021&path-prefix=es",
+    "coords": { "x": 82.0, "y": 62.0 }
   },
   {
     "id": 20,
@@ -277,21 +296,23 @@
       { "stat": { "name": "vida" }, "base_stat": 999 },
       { "stat": { "name": "ataque" }, "base_stat": 0 }
     ],
-    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/5/55/White_Lady_Cut.png/revision/latest/scale-to-width-down/1000?cb=20180908031713"
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/5/55/White_Lady_Cut.png/revision/latest/scale-to-width-down/1000?cb=20180908031713",
+    "coords": { "x": 12.0, "y": 42.0 }
   },
   {
     "id": 21,
     "nombre": "Ogrim",
-    "tipo": "Cañón Nublado",
+    "tipo": "Canales Reales",
     "altura": 1.3,
     "peso": 35.0,
-    "habilidades": ["Bolas de Sombra", "Golpe Terrestre"],
+    "habilidades": ["Bolas de Estiércol", "Golpe Terrestre"],
     "descripcion": "Uno de los Cinco Grandes Guerreros, conocido por su gran fuerza y su inquebrantable lealtad.",
     "stats": [
       { "stat": { "name": "vida" }, "base_stat": 900 },
       { "stat": { "name": "ataque" }, "base_stat": 25 }
     ],
-    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/7/76/Dung_Defender_Idle.png/revision/latest?cb=20181129012118"
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/7/76/Dung_Defender_Idle.png/revision/latest?cb=20181129012118",
+    "coords": { "x": 62.0, "y": 62.0 }
   },
   {
     "id": 22,
@@ -305,12 +326,13 @@
       { "stat": { "name": "vida" }, "base_stat": 999 },
       { "stat": { "name": "ataque" }, "base_stat": 20 }
     ],
-    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/6/61/Mato.png/revision/latest?cb=20180824204812"
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/6/61/Mato.png/revision/latest?cb=20180824204812",
+    "coords": { "x": 22.0, "y": 12.0 }
   },
   {
     "id": 23,
     "nombre": "Oro",
-    "tipo": "Boca Sucia",
+    "tipo": "Límite del Reino",
     "altura": 0.9,
     "peso": 16.0,
     "habilidades": ["Técnicas de Aguijón", "Golpe Giratorio"],
@@ -319,7 +341,8 @@
       { "stat": { "name": "vida" }, "base_stat": 999 },
       { "stat": { "name": "ataque" }, "base_stat": 20 }
     ],
-    "imagen": "https://static-wikia-nocookie-net.translate.goog/hollowknight/images/4/4e/Oro.png/revision/latest?cb=20221005124852&_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc"
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/4/4e/Oro.png/revision/latest?cb=20221005124852",
+    "coords": { "x": 88.0, "y": 72.0 }
   },
   {
     "id": 24,
@@ -333,12 +356,13 @@
       { "stat": { "name": "vida" }, "base_stat": 999 },
       { "stat": { "name": "ataque" }, "base_stat": 20 }
     ],
-    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/1/1a/NailmasterSheo.png/revision/latest?cb=20180824204656"
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/1/1a/NailmasterSheo.png/revision/latest?cb=20180824204656",
+    "coords": { "x": 22.0, "y": 30.0 }
   },
   {
     "id": 25,
     "nombre": "Salubra",
-    "tipo": "Páramos Fúngicos",
+    "tipo": "Encrucijada Olvidada",
     "altura": 0.7,
     "peso": 10.0,
     "habilidades": ["Comercio de Amuletos", "Encantamiento"],
@@ -347,7 +371,8 @@
       { "stat": { "name": "vida" }, "base_stat": 999 },
       { "stat": { "name": "ataque" }, "base_stat": 0 }
     ],
-    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/e/ea/Salubra.png/revision/latest?cb=20180904182924"
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/e/ea/Salubra.png/revision/latest?cb=20180904182924",
+    "coords": { "x": 58.0, "y": 32.0 }
   },
   {
     "id": 26,
@@ -361,12 +386,13 @@
       { "stat": { "name": "vida" }, "base_stat": 999 },
       { "stat": { "name": "ataque" }, "base_stat": 0 }
     ],
-    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/a/a1/Tuk.png/revision/latest?cb=20210331085512"
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/a/a1/Tuk.png/revision/latest?cb=20210331085512",
+    "coords": { "x": 65.0, "y": 58.0 }
   },
   {
     "id": 27,
     "nombre": "Willoh",
-    "tipo": "Páramos Fúngicos",
+    "tipo": "Estación de la Reina",
     "altura": 1.1,
     "peso": 22.0,
     "habilidades": ["Supervivencia", "Alimentación"],
@@ -375,7 +401,8 @@
       { "stat": { "name": "vida" }, "base_stat": 999 },
       { "stat": { "name": "ataque" }, "base_stat": 0 }
     ],
-    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/4/43/Willoh.png/revision/latest?cb=20180216123930&path-prefix=es"
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/4/43/Willoh.png/revision/latest?cb=20180216123930&path-prefix=es",
+    "coords": { "x": 35.0, "y": 52.0 }
   },
   {
     "id": 28,
@@ -389,26 +416,28 @@
       { "stat": { "name": "vida" }, "base_stat": 999 },
       { "stat": { "name": "ataque" }, "base_stat": 0 }
     ],
-    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/2/24/Millibelle.png/revision/latest?cb=20180211221457&path-prefix=es"
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/2/24/Millibelle.png/revision/latest?cb=20180211221457&path-prefix=es",
+    "coords": { "x": 32.0, "y": 48.0 }
   },
   {
     "id": 29,
     "nombre": "Vespa",
-    "tipo": "Páramos Fúngicos",
+    "tipo": "La Lamena",
     "altura": 0.5,
     "peso": 3.0,
     "habilidades": ["Vuelo", "Picadura"],
-    "descripcion": "El espíritu de una antigua guerrera ligada a la tribu de las polillas y a los recuerdos de Hallownest.",
+    "descripcion": "El espíritu de la reina de las abejas ligada a La Colmena.",
     "stats": [
       { "stat": { "name": "vida" }, "base_stat": 30 },
       { "stat": { "name": "ataque" }, "base_stat": 8 }
     ],
-    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/f/f1/Vespa.png/revision/latest?cb=20181211191213"
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/f/f1/Vespa.png/revision/latest?cb=20181211191213",
+    "coords": { "x": 80.0, "y": 58.0 }
   },
   {
     "id": 30,
     "nombre": "Brumm",
-    "tipo": "Acantilados Aulladores",
+    "tipo": "Boca Sucia",
     "altura": 1.0,
     "peso": 18.0,
     "habilidades": ["Magia Carmesí", "Manipulación de la Llama"],
@@ -417,12 +446,13 @@
       { "stat": { "name": "vida" }, "base_stat": 999 },
       { "stat": { "name": "ataque" }, "base_stat": 5 }
     ],
-    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/b/bf/Brumm_Tent.png/revision/latest?cb=20180921144946"
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/b/bf/Brumm_Tent.png/revision/latest?cb=20180921144946",
+    "coords": { "x": 45.0, "y": 14.2 }
   },
   {
     "id": 31,
     "nombre": "Nailsmith",
-    "tipo": "Boca Sucia",
+    "tipo": "Ciudad de Lágrimas",
     "altura": 0.8,
     "peso": 15.0,
     "habilidades": ["Forja de Aguijones", "Perfeccionamiento"],
@@ -431,7 +461,8 @@
       { "stat": { "name": "vida" }, "base_stat": 999 },
       { "stat": { "name": "ataque" }, "base_stat": 0 }
     ],
-    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/f/f6/Nailsmith_2.png/revision/latest?cb=20180829024237"
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/f/f6/Nailsmith_2.png/revision/latest?cb=20180829024237",
+    "coords": { "x": 50.0, "y": 48.0 }
   },
   {
     "id": 32,
@@ -445,7 +476,8 @@
       { "stat": { "name": "vida" }, "base_stat": 999 },
       { "stat": { "name": "ataque" }, "base_stat": 0 }
     ],
-    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/6/65/Confessor_Jiji.png/revision/latest?cb=20180210231921&path-prefix=es"
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/6/65/Confessor_Jiji.png/revision/latest?cb=20180210231921&path-prefix=es",
+    "coords": { "x": 54.0, "y": 14.0 }
   },
   {
     "id": 33,
@@ -459,7 +491,8 @@
       { "stat": { "name": "vida" }, "base_stat": 999 },
       { "stat": { "name": "ataque" }, "base_stat": 0 }
     ],
-    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/5/5a/Mask_Maker_Mask_2.png/revision/latest?cb=20210604131014"
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/5/5a/Mask_Maker_Mask_2.png/revision/latest?cb=20210604131014",
+    "coords": { "x": 16.0, "y": 62.0 }
   },
   {
     "id": 34,
@@ -473,7 +506,8 @@
       { "stat": { "name": "vida" }, "base_stat": 999 },
       { "stat": { "name": "ataque" }, "base_stat": 15 }
     ],
-    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/e/ed/Midwife.png/revision/latest?cb=20170417120123"
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/e/ed/Midwife.png/revision/latest?cb=20170417120123",
+    "coords": { "x": 22.0, "y": 75.0 }
   },
   {
     "id": 35,
@@ -487,7 +521,8 @@
       { "stat": { "name": "vida" }, "base_stat": 999 },
       { "stat": { "name": "ataque" }, "base_stat": 0 }
     ],
-    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/e/ea/Lemm_Desk.png/revision/latest?cb=20180916003218"
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/e/ea/Lemm_Desk.png/revision/latest?cb=20180916003218",
+    "coords": { "x": 56.0, "y": 45.0 }
   },
   {
     "id": 36,
@@ -501,7 +536,8 @@
       { "stat": { "name": "vida" }, "base_stat": 999 },
       { "stat": { "name": "ataque" }, "base_stat": 0 }
     ],
-    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/9/98/Eternal.png/revision/latest?cb=20180212235841&path-prefix=es"
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/9/98/Eternal.png/revision/latest?cb=20180212235841&path-prefix=es",
+    "coords": { "x": 60.0, "y": 48.0 }
   },
   {
     "id": 37,
@@ -515,7 +551,8 @@
       { "stat": { "name": "vida" }, "base_stat": 999 },
       { "stat": { "name": "ataque" }, "base_stat": 10 }
     ],
-    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/3/38/Snail_Shaman.png/revision/latest?cb=20170413173429"
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/3/38/Snail_Shaman.png/revision/latest?cb=20170413173429",
+    "coords": { "x": 38.0, "y": 28.0 }
   },
   {
     "id": 38,
@@ -529,7 +566,8 @@
       { "stat": { "name": "vida" }, "base_stat": 999 },
       { "stat": { "name": "ataque" }, "base_stat": 0 }
     ],
-    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/e/ee/Seer.png/revision/latest?cb=20171206183815&path-prefix=es"
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/e/ee/Seer.png/revision/latest?cb=20171206183815&path-prefix=es",
+    "coords": { "x": 70.0, "y": 30.0 }
   },
   {
     "id": 39,
@@ -543,7 +581,8 @@
       { "stat": { "name": "vida" }, "base_stat": 999 },
       { "stat": { "name": "ataque" }, "base_stat": 0 }
     ],
-    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/b/bc/B_Herrah.png/revision/latest?cb=20200602141649"
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/b/bc/B_Herrah.png/revision/latest?cb=20200602141649",
+    "coords": { "x": 18.0, "y": 70.0 }
   },
   {
     "id": 40,
@@ -557,7 +596,8 @@
       { "stat": { "name": "vida" }, "base_stat": 999 },
       { "stat": { "name": "ataque" }, "base_stat": 0 }
     ],
-    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/e/e9/B_Monomon.png/revision/latest?cb=20180128201852&path-prefix=es"
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/e/e9/B_Monomon.png/revision/latest?cb=20180128201852&path-prefix=es",
+    "coords": { "x": 35.0, "y": 44.0 }
   },
   {
     "id": 41,
@@ -571,21 +611,23 @@
       { "stat": { "name": "vida" }, "base_stat": 999 },
       { "stat": { "name": "ataque" }, "base_stat": 0 }
     ],
-    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/c/ce/B_Lurien.png/revision/latest?cb=20200602141133"
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/c/ce/B_Lurien.png/revision/latest?cb=20200602141133",
+    "coords": { "x": 58.0, "y": 42.0 }
   },
   {
     "id": 42,
     "nombre": "Uumuu",
     "tipo": "Cañón Nublado",
-    "altura": 1.80,
+    "altura": 1.8,
     "peso": 35.0,
-    "habilidades": ["Persecucion electrica", "Descarga Electrica"],
+    "habilidades": ["Persecución eléctrica", "Descarga Eléctrica"],
     "descripcion": "Una criatura eléctrica que protege los secretos del Cañón Nublado y sirve como guardián de una Soñadora.",
     "stats": [
       { "stat": { "name": "vida" }, "base_stat": 300 },
       { "stat": { "name": "ataque" }, "base_stat": 15 }
     ],
-    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/4/49/B_Uumuu.png/revision/latest?cb=20171202220309&path-prefix=es"
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/4/49/B_Uumuu.png/revision/latest?cb=20171202220309&path-prefix=es",
+    "coords": { "x": 36.0, "y": 45.0 }
   },
   {
     "id": 43,
@@ -599,21 +641,23 @@
       { "stat": { "name": "vida" }, "base_stat": 999 },
       { "stat": { "name": "ataque" }, "base_stat": 0 }
     ],
-    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/d/de/Laststag.png/revision/latest?cb=20200928205808"
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/d/de/Laststag.png/revision/latest?cb=20200928205808",
+    "coords": { "x": 53.0, "y": 15.0 }
   },
   {
     "id": 44,
     "nombre": "Bardoon",
-    "tipo": "Acantilados Aulladores",
+    "tipo": "Límite del Reino",
     "altura": 2.5,
     "peso": 100.0,
     "habilidades": ["Sabiduría", "Conocimiento de Hallownest"],
-    "descripcion": "Una enorme criatura que vive en los Acantilados Aulladores y contempla tranquilamente el mundo desde las alturas.",
+    "descripcion": "Una enorme criatura que vive en los límites del reino y contempla tranquilamente el mundo desde las alturas.",
     "stats": [
       { "stat": { "name": "vida" }, "base_stat": 999 },
       { "stat": { "name": "ataque" }, "base_stat": 0 }
     ],
-    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/2/24/Bardoon.png/revision/latest?cb=20180212215159&path-prefix=es"
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/2/24/Bardoon.png/revision/latest?cb=20180212215159&path-prefix=es",
+    "coords": { "x": 82.0, "y": 45.0 }
   },
   {
     "id": 45,
@@ -627,7 +671,8 @@
       { "stat": { "name": "vida" }, "base_stat": 80 },
       { "stat": { "name": "ataque" }, "base_stat": 15 }
     ],
-    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/f/f6/Legeater.png/revision/latest?cb=20180204123514&path-prefix=es"
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/f/f6/Legeater.png/revision/latest?cb=20180204123514&path-prefix=es",
+    "coords": { "x": 44.0, "y": 45.0 }
   },
   {
     "id": 46,
@@ -641,12 +686,13 @@
       { "stat": { "name": "vida" }, "base_stat": 999 },
       { "stat": { "name": "ataque" }, "base_stat": 0 }
     ],
-    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/d/d2/Godseeker.png/revision/latest?cb=20180824141951"
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/d/d2/Godseeker.png/revision/latest?cb=20180824141951",
+    "coords": { "x": 52.0, "y": 66.0 }
   },
   {
     "id": 47,
     "nombre": "Divine",
-    "tipo": "Acantilados Aulladores",
+    "tipo": "Boca Sucia",
     "altura": 1.1,
     "peso": 20.0,
     "habilidades": ["Devorar Amuletos", "Fortalecimiento"],
@@ -655,12 +701,13 @@
       { "stat": { "name": "vida" }, "base_stat": 999 },
       { "stat": { "name": "ataque" }, "base_stat": 0 }
     ],
-    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/f/f8/Divine02.png/revision/latest?cb=20180118101742&path-prefix=es"
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/f/f8/Divine02.png/revision/latest?cb=20180118101742&path-prefix=es",
+    "coords": { "x": 43.0, "y": 14.5 }
   },
   {
     "id": 48,
     "nombre": "Nymm",
-    "tipo": "Acantilados Aulladores",
+    "tipo": "Boca Sucia",
     "altura": 0.8,
     "peso": 10.0,
     "habilidades": ["Música", "Viaje"],
@@ -669,7 +716,8 @@
       { "stat": { "name": "vida" }, "base_stat": 999 },
       { "stat": { "name": "ataque" }, "base_stat": 0 }
     ],
-    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/4/4e/Nymm.png/revision/latest?cb=20180216131029"
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/4/4e/Nymm.png/revision/latest?cb=20180216131029",
+    "coords": { "x": 47.5, "y": 14.0 }
   },
   {
     "id": 49,
@@ -683,7 +731,8 @@
       { "stat": { "name": "vida" }, "base_stat": 750 },
       { "stat": { "name": "ataque" }, "base_stat": 20 }
     ],
-    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/6/68/B_TheCollector.png/revision/latest?cb=20171202131252&path-prefix=es"
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/6/68/B_TheCollector.png/revision/latest?cb=20171202131252&path-prefix=es",
+    "coords": { "x": 72.0, "y": 52.0 }
   },
   {
     "id": 50,
@@ -697,7 +746,8 @@
       { "stat": { "name": "vida" }, "base_stat": 250 },
       { "stat": { "name": "ataque" }, "base_stat": 10 }
     ],
-    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/2/29/HJ_Marmu.png/revision/latest?cb=20180202232145"
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/2/29/HJ_Marmu.png/revision/latest?cb=20180202232145",
+    "coords": { "x": 16.0, "y": 48.0 }
   },
   {
     "id": 51,
@@ -711,12 +761,13 @@
       { "stat": { "name": "vida" }, "base_stat": 200 },
       { "stat": { "name": "ataque" }, "base_stat": 15 }
     ],
-    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/e/ee/HJ_Galien.png/revision/latest?cb=20180202184121"
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/e/ee/HJ_Galien.png/revision/latest?cb=20180202184121",
+    "coords": { "x": 25.0, "y": 72.0 }
   },
   {
     "id": 52,
     "nombre": "Markoth",
-    "tipo": "Tierras de Reposo",
+    "tipo": "Límite del Reino",
     "altura": 1.2,
     "peso": 18.0,
     "habilidades": ["Escudos", "Arma Espiritual"],
@@ -725,7 +776,8 @@
       { "stat": { "name": "vida" }, "base_stat": 250 },
       { "stat": { "name": "ataque" }, "base_stat": 15 }
     ],
-    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/4/4a/HJ_Markoth.png/revision/latest?cb=20170409173511"
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/4/4a/HJ_Markoth.png/revision/latest?cb=20170409173511",
+    "coords": { "x": 86.0, "y": 78.0 }
   },
   {
     "id": 53,
@@ -739,7 +791,8 @@
       { "stat": { "name": "vida" }, "base_stat": 200 },
       { "stat": { "name": "ataque" }, "base_stat": 10 }
     ],
-    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/f/f9/HJ_Xero.png/revision/latest?cb=20180202234043"
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/f/f9/HJ_Xero.png/revision/latest?cb=20180202234043",
+    "coords": { "x": 68.0, "y": 28.0 }
   },
   {
     "id": 54,
@@ -753,7 +806,8 @@
       { "stat": { "name": "vida" }, "base_stat": 200 },
       { "stat": { "name": "ataque" }, "base_stat": 10 }
     ],
-    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/3/33/HJ_Gorb.png/revision/latest?cb=20180202192847"
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/3/33/HJ_Gorb.png/revision/latest?cb=20180202192847",
+    "coords": { "x": 20.0, "y": 10.0 }
   },
   {
     "id": 55,
@@ -767,7 +821,8 @@
       { "stat": { "name": "vida" }, "base_stat": 200 },
       { "stat": { "name": "ataque" }, "base_stat": 10 }
     ],
-    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/5/5b/HJ_No_Eyes.png/revision/latest?cb=20170409173635"
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/5/5b/HJ_No_Eyes.png/revision/latest?cb=20170409173635",
+    "coords": { "x": 24.0, "y": 36.0 }
   },
   {
     "id": 56,
@@ -781,7 +836,8 @@
       { "stat": { "name": "vida" }, "base_stat": 250 },
       { "stat": { "name": "ataque" }, "base_stat": 12 }
     ],
-    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/0/01/HJ_Elder_Hu.png/revision/latest?cb=20180202182436&path-prefix=es"
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/0/01/HJ_Elder_Hu.png/revision/latest?cb=20180202182436&path-prefix=es",
+    "coords": { "x": 46.0, "y": 48.0 }
   },
   {
     "id": 57,
@@ -795,48 +851,53 @@
       { "stat": { "name": "vida" }, "base_stat": 350 },
       { "stat": { "name": "ataque" }, "base_stat": 10 }
     ],
-    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/1/1b/B_Flukemarm.png/revision/latest?cb=20170412131642"
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/1/1b/B_Flukemarm.png/revision/latest?cb=20170412131642",
+    "coords": { "x": 58.0, "y": 64.0 }
   },
   {
     "id": 58,
     "nombre": "Maestro de almas",
     "tipo": "Ciudad de Lágrimas",
-    "altura": 2.10,
+    "altura": 2.1,
     "peso": 65.0,
     "habilidades": ["Proyectiles de alma", "Golpe descendente"],
-    "descripcion": "Un poderoso hechicero que utilizó el poder del Alma para intentar alcanzar una forma superior de existencia.",
+    "descripcion": "Un poderoso hechicero que utilizó el poder del Alma para intentar alcanzar una forma superior.",
     "stats": [
-      { "stat": { "name": "vida" }, "base_stat": 275 },
+      { "stat": { "name": "vida" }, "base_stat": 385 },
       { "stat": { "name": "ataque" }, "base_stat": 15 }
     ],
-    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/c/cf/B_Soulmaster.png/revision/latest?cb=20180821144031"
-  },
-  {
-    "id": 59,
-    "nombre": "Hive Knight",
-    "tipo": "La Colmena",
-    "altura": 1.4,
-    "peso": 25.0,
-    "habilidades": ["Aguijón", "Picadura de Abeja"],
-    "descripcion": "Un guerrero de la Colmena que protege a su reina y lucha con una velocidad sorprendente.",
-    "stats": [
-      { "stat": { "name": "vida" }, "base_stat": 550 },
-      { "stat": { "name": "ataque" }, "base_stat": 20 }
-    ],
-    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/a/a0/Hive_knight.png/revision/latest?cb=20180429181144"
-  },
-  {
-    "id": 60,
-    "nombre": "Traitor Lord",
-    "tipo": "Jardines de la Reina",
-    "altura": 1.6,
-    "peso": 40.0,
-    "habilidades": ["Guadañas", "Embestida"],
-    "descripcion": "Un antiguo líder de los Mantis que abandonó a su tribu y se convirtió en un poderoso guerrero.",
-    "stats": [
-      { "stat": { "name": "vida" }, "base_stat": 800 },
-      { "stat": { "name": "ataque" }, "base_stat": 25 }
-    ],
-    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/2/2c/B_Traitor_Lord.png/revision/latest?cb=20170412201256"
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/f/f4/B_Soul_Master.png/revision/latest?cb=20170412132338",
+    "coords": { "x": 54.0, "y": 40.0 }
   }
+,
+{
+  "id": 59,
+  "nombre": "Hive Knight",
+  "tipo": "La Colmena",
+  "altura": 1.4,
+  "peso": 25.0,
+  "habilidades": ["Aguijón", "Picadura de Abeja"],
+  "descripcion": "Un guerrero de la Colmena que protege a su reina y lucha con una velocidad sorprendente.",
+  "stats": [
+    { "stat": { "name": "vida" }, "base_stat": 550 },
+    { "stat": { "name": "ataque" }, "base_stat": 20 }
+  ],
+  "imagen": "https://static.wikia.nocookie.net/hollowknight/images/a/a0/Hive_knight.png/revision/latest?cb=20180429181144",
+  "coords":{"x": 82.0, "y": 60.0}
+},
+{
+  "id": 60,
+  "nombre": "Traitor Lord",
+  "tipo": "Jardines de la Reina",
+  "altura": 1.6,
+  "peso": 40.0,
+  "habilidades": ["Guadañas", "Embestida"],
+  "descripcion": "Un antiguo líder de los Mantis que abandonó a su tribu y se convirtió en un poderoso guerrero.",
+  "stats": [
+    { "stat": { "name": "vida" }, "base_stat": 800 },
+    { "stat": { "name": "ataque" }, "base_stat": 25 }
+  ],
+  "imagen": "https://static.wikia.nocookie.net/hollowknight/images/2/2c/B_Traitor_Lord.png/revision/latest?cb=20170412201256",
+  "coords":{"x": 14.0, "y": 45.0}
+}
 ]
