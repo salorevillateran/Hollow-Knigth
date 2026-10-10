@@ -176,7 +176,7 @@
       { "stat": { "name": "vida" }, "base_stat": 999 },
       { "stat": { "name": "ataque" }, "base_stat": 0 }
     ],
-    "imagen": "https://www.spriters-resource.com/media/asset_icons/130/132844.png",
+    "imagen": "https://static-wikia-nocookie-net.translate.goog/hollowknight/images/5/50/Iselda.png/revision/latest?cb=20180924000532&_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc",
     "coords": { "x": 49.0, "y": 14.0 }
   },
   {
@@ -866,7 +866,7 @@
       { "stat": { "name": "vida" }, "base_stat": 385 },
       { "stat": { "name": "ataque" }, "base_stat": 15 }
     ],
-    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/f/f4/B_Soul_Master.png/revision/latest?cb=20170412132338",
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/c/cf/B_Soulmaster.png/revision/latest?cb=20180821144031",
     "coords": { "x": 54.0, "y": 40.0 }
   }
 ,
@@ -900,4 +900,563 @@
   "imagen": "https://static.wikia.nocookie.net/hollowknight/images/2/2c/B_Traitor_Lord.png/revision/latest?cb=20170412201256",
   "coords":{"x": 14.0, "y": 45.0}
 }
+,
+{
+  "id": 61,
+  "nombre": "Caballero Falso",
+  "tipo": "Cruces Olvidados",
+  "altura": 2.5,
+  "peso": 70.0,
+  "habilidades": ["Maza Gigante", "Golpe Terrestre"],
+  "descripcion": "Un gusano que robó una armadura enorme y la utiliza para hacerse pasar por un poderoso guerrero.",
+  "stats": [
+    { "stat": { "name": "vida" }, "base_stat": 360 },
+    { "stat": { "name": "ataque" }, "base_stat": 25 }
+  ],
+  "imagen": "https://static.wikia.nocookie.net/hollowknight/images/9/98/B_False_Knight.png/revision/latest?cb=20181129012523",
+  "coords": { "x": 43.0, "y": 25.0 }
+},
+{
+  "id": 62,
+  "nombre": "Campeón Fallido",
+  "tipo": "Cruces Olvidados",
+  "altura": 2.5,
+  "peso": 70.0,
+  "habilidades": ["Maza Gigante", "Furia"],
+  "descripcion": "La versión soñada del Caballero Falso, mucho más rápida y peligrosa que el original.",
+  "stats": [
+    { "stat": { "name": "vida" }, "base_stat": 360 },
+    { "stat": { "name": "ataque" }, "base_stat": 35 }
+  ],
+  "imagen": "https://static.wikia.nocookie.net/hollowknight/images/a/ac/Failed-Champion.png/revision/latest?cb=20170422203704",
+  "coords": { "x": 43.0, "y": 25.0 }
+},
+{
+  "id": 63,
+  "nombre": "Guardián de Cristal",
+  "tipo": "Pico de Cristal",
+  "altura": 1.1,
+  "peso": 20.0,
+  "habilidades": ["Rayos de Cristal", "Salto"],
+  "descripcion": "Una criatura cubierta de cristal que protege las antiguas minas del Pico de Cristal.",
+  "stats": [
+    { "stat": { "name": "vida" }, "base_stat": 280 },
+    { "stat": { "name": "ataque" }, "base_stat": 15 }
+  ],
+  "imagen": "https://static.wikia.nocookie.net/hollowknight/images/0/02/B_Crystal_Guardian.png/revision/latest?cb=20170412170806",
+  "coords": { "x": 70.0, "y": 24.0 }
+},
+{
+  "id": 64,
+  "nombre": "Guardián Enfurecido",
+  "tipo": "Pico de Cristal",
+  "altura": 1.1,
+  "peso": 20.0,
+  "habilidades": ["Rayos de Cristal", "Enfurecimiento"],
+  "descripcion": "Una versión mucho más agresiva del Guardián de Cristal que protege las zonas profundas de la mina.",
+  "stats": [
+    { "stat": { "name": "vida" }, "base_stat": 450 },
+    { "stat": { "name": "ataque" }, "base_stat": 25 }
+  ],
+  "imagen": "https://static.wikia.nocookie.net/hollowknight/images/0/03/Statue_Enraged_Guardian.png/revision/latest?cb=20180827213019&path-prefix=es",
+  "coords": { "x": 70.0, "y": 24.0 }
+},
+{
+  "id": 65,
+  "nombre": "Vasija Rota",
+  "tipo": "Cuenca Antigua",
+  "altura":1.4,
+  "peso":35.0,
+  "habilidades":["Salto infectado","Espiritus voladores"],
+  "descripcion":"Un receptáculo abandonado que fue consumido por la infeccion y permanece perdido en la Cuenca Antigua.",
+        "stats": [
+        { "stat": { "name": "vida" }, "base_stat": 525 },
+        { "stat": { "name": "ataque" }, "base_stat": 15 }
+        ],
+        "imagen": "https://static.wikia.nocookie.net/hollowknight/images/3/30/B_Broken_Vessel-2.png/revision/latest?cb=20180821144714",
+        "coords": {"x":57, "y": 42}
+      
+    },
+    {
+  "id": 66,
+  "nombre": "Rey Vengamosca",
+  "tipo": "Cruces Olvidados",
+  "altura": 2.4,
+  "peso": 35.0,
+  "habilidades": ["Picotazo", "Llamada de vengamoscas"],
+  "descripcion": "Una criatura territorial de los Cruces Olvidados que protege su zona con ferocidad.",
+  "stats": {"vida": 90, "ataque": 12},
+  "imagen": "https://static.wikia.nocookie.net/hollowknight/images/4/41/B_Vengefly_King.png/revision/latest?cb=20180125112331&path-prefix=es",
+  "coords": {"x": 18, "y": 25}
+},
+{
+  "id": 67,
+  "nombre": "Madre Gruz",
+  "tipo": "Cruces Olvidados",
+  "altura": 3.2,
+  "peso": 80.0,
+  "habilidades": ["Embestida", "Golpe aéreo"],
+  "descripcion": "Una enorme criatura voladora que protege su nido en los Cruces Olvidados.",
+  "stats": {"vida": 90, "ataque": 12},
+  "imagen": "https://static.wikia.nocookie.net/hollowknight/images/9/9f/B_Gruz_Mother.png/revision/latest?cb=20171202164638&path-prefix=es",
+  "coords": {"x": 22, "y": 29}
+},
+{
+  "id": 68,
+  "nombre": "Mawlek Incubador",
+  "tipo": "Cruces Olvidados",
+  "altura": 2.0,
+  "peso": 45.0,
+  "habilidades": ["Garra", "Escupitajo", "Salto"],
+  "descripcion": "Una criatura infectada y agresiva que se encuentra aislada en una zona de los Cruces Olvidados.",
+  "stats": {"vida": 105, "ataque": 15},
+  "imagen": "https://static.wikia.nocookie.net/hollowknight/images/4/42/B_Brooding_Mawlek2.png/revision/latest?cb=20180821143716",
+  "coords": {"x": 27, "y": 31}
+},
+{
+  "id": 69,
+  "nombre": "Señores Mantis",
+  "tipo": "Páramos Fúngicos",
+  "altura": 3.5,
+  "peso": 60.0,
+  "habilidades": ["Guadaña", "Salto veloz"],
+  "descripcion": "Tres poderosos guerreros de la tribu de las mantis que protegen sus dominios",
+  "stats": {"vida": 210, "ataque": 18},
+  "imagen": "https://static.wikia.nocookie.net/hollowknight/images/2/2d/B_Mantis_Lords-2.png/revision/latest?cb=20180821145144",
+  "coords": {"x": 35, "y": 47}
+},
+{
+  "id": 70,
+  "nombre": "Traidor Mantis",
+  "tipo": "Páramos Fúngicos",
+  "altura": 2.2,
+  "peso": 35.0,
+  "habilidades": ["Garra", "Embestida", "Salto"],
+  "descripcion": "Un guerrero de la tribu de las mantis que fue desterrado y ahora protege su territorio con ferocidad.",
+  "stats": {
+    "vida": 210,
+    "ataque": 18
+  },
+  "imagen": "https://static.wikia.nocookie.net/hollowknight/images/d/da/B_Mantis_Traitor.png/revision/latest?cb=20170412201222",
+  "coords": {
+    "x": 38,
+    "y": 52
+  }
+},
+{
+  "id": 71,
+  "nombre": "Nosk Alado",
+  "tipo": "Nido Profundo",
+  "altura": 2.8,
+  "peso": 50.0,
+  "habilidades": ["Vuelo", "Embestida", "Salto"],
+  "descripcion": "Una variante de Nosk capaz de volar y atacar desde el aire.",
+  "stats": {"vida": 680, "ataque": 18},
+  "imagen": "https://static.wikia.nocookie.net/hollowknight/images/1/14/Winged_Nosk.png/revision/latest?cb=20180827021707&path-prefix=es",
+  "coords": {"x": 51, "y": 68}
+},
+{
+  "id": 72,
+  "nombre": "Príncipe Zote",
+  "tipo": "Coliseo de los Insensatos",
+  "altura": 1.1,
+  "peso": 8.0,
+  "habilidades": ["Golpe de espada", "Caída", "Habilidad dudosa"],
+  "descripcion": "Una versión particularmente problemática de Zote que aparece durante sus aventuras.",
+  "stats": {"vida": 200, "ataque": 10},
+  "imagen": "https://static.wikia.nocookie.net/hollowknight/images/d/df/Bestiary_mighty_zote_full.png/revision/latest?cb=20171202221410&path-prefix=es",
+  "coords": {"x": 69, "y": 35}
+},
+{
+  "id": 73,
+  "nombre": "Gruzzer",
+  "tipo": "Cruces Olvidados",
+  "altura": 1.4,
+  "peso": 18.0,
+  "habilidades": ["Embestida", "Vuelo"],
+  "descripcion": "Una criatura voladora que patrulla los Cruces Olvidados y ataca desde el aire.",
+  "stats": {
+    "vida": 40,
+    "ataque": 8
+  },
+  "imagen": "https://static.wikia.nocookie.net/hollowknight/images/6/63/B_Gruzzer.png/revision/latest?cb=20180528155908",
+  "coords": {
+    "x": 20,
+    "y": 27
+  }
+},
+{
+  "id": 74,
+  "nombre": "Obble",
+  "tipo": "Acantilados Aulladores",
+  "altura": 1.2,
+  "peso": 15.0,
+  "habilidades": ["Vuelo", "Embestida", "Proyectiles"],
+  "descripcion": "Una criatura voladora que habita en zonas elevadas de Hallownest y ataca lanzándose contra sus enemigos.",
+  "stats": {
+    "vida": 35,
+    "ataque": 8
+  },
+  "imagen": "https://static.wikia.nocookie.net/hollowknight/images/1/13/B_Obble.png/revision/latest?cb=20180125222910&path-prefix=es",
+  "coords": {
+    "x": 62,
+    "y": 18
+  }
+},
+{
+  "id": 75,
+  "nombre": "Cazador Áspid",
+  "tipo": "Cruces Olvidados",
+  "altura": 1.2,
+  "peso": 12.0,
+  "habilidades": [
+    "Disparo venenoso",
+    "Salto",
+    "Embestida"
+  ],
+  "descripcion": "Un áspid cazador que ataca desde lejos lanzando proyectiles venenosos contra sus enemigos.",
+  "stats": {
+    "vida": 45,
+    "ataque": 8
+  },
+  "imagen": "https://static.wikia.nocookie.net/hollowknight/images/7/71/B_Aspid_Hunter.png/revision/latest?cb=20180528160503",
+  "coords": {
+    "x": 24,
+    "y": 26
+  }
+},
+{
+  "id": 76,
+  "nombre": "Centinela Alado",
+  "tipo": "Palacio Blanco",
+  "altura": 1.8,
+  "peso": 22.0,
+  "habilidades": ["Vuelo", "Embestida", "Proyectiles"],
+  "descripcion": "Un centinela volador que protege los antiguos caminos y estructuras de Hallownest.",
+  "stats": {
+    "vida": 70,
+    "ataque": 10
+  },
+  "imagen": "https://static.wikia.nocookie.net/hollowknight/images/e/ec/B_Winged_Sentry.png/revision/latest?cb=20180130200535&path-prefix=es",
+  "coords": {
+    "x": 76,
+    "y": 22
+  }
+},
+{
+  "id": 77,
+  "nombre": "Tiktik",
+  "tipo": "Cruces Olvidados",
+  "altura": 0.4,
+  "peso": 2.0,
+  "habilidades": ["Mordida", "Trepar paredes"],
+  "descripcion": "Pequeño insecto que recorre las paredes de las cavernas de Hallownest.",
+  "stats": {
+    "vida": 8,
+    "ataque": 5
+  },
+  "imagen": "https://static.wikia.nocookie.net/hollowknight/images/9/91/B_Tiktik.png/revision/latest?cb=20181127213647",
+  "coords": { "x": 18, "y": 22 }
+},
+{
+  "id": 78,
+  "nombre": "Crawlid",
+  "tipo": "Cruces Olvidados",
+  "altura": 0.3,
+  "peso": 2.0,
+  "habilidades": ["Movimiento terrestre", "Emboscada"],
+  "descripcion": "Pequeña criatura que se desplaza por el suelo de Hallownest.",
+  "stats": {
+    "vida": 5,
+    "ataque": 5
+  },
+  "imagen": "https://static.wikia.nocookie.net/hollowknight/images/5/5b/B_Crawlid.png/revision/latest?cb=20180528162013",
+  "coords": { "x": 23, "y": 25 }
+},
+{
+  "id": 79,
+  "nombre": "Vengamosca",
+  "tipo": "Cruces Olvidados",
+  "altura": 0.5,
+  "peso": 2.0,
+  "habilidades": ["Vuelo", "Embestida"],
+  "descripcion": "Insecto volador agresivo que persigue a los intrusos.",
+  "stats": {
+    "vida": 8,
+    "ataque": 5
+  },
+  "imagen": "https://static.wikia.nocookie.net/hollowknight/images/e/e2/B_Vengefly.png/revision/latest?cb=20180528160221",
+  "coords": { "x": 27, "y": 21 }
+},
+{
+    "id": 80,
+    "nombre": "Mantis Petra",
+    "tipo": "Aldea Mantis",
+    "altura": 1.2,
+    "peso": 8.5,
+    "habilidades": [
+        "Lanzamiento de proyectiles",
+        "Salto",
+        "Ataque aéreo"
+    ],
+    "descripcion": "Una guerrera de la tribu Mantis que utiliza proyectiles para atacar a sus enemigos desde la distancia.",
+    "stats": {
+        "vida": 60,
+        "ataque": 15
+    },
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/a/ae/B_Mantis_Petra.png/revision/latest?cb=20170412201000",
+    "coords": {
+        "x": 44,
+        "y": 58
+    }
+},
+{
+  "id": 81,
+  "nombre": "Madre Áspid",
+  "tipo": "Cañón Nublado",
+  "altura": 0.8,
+  "peso": 3.0,
+  "habilidades": ["Disparo", "Invocar crías"],
+  "descripcion": "Áspid grande que protege su territorio lanzando proyectiles y creando pequeñas crías.",
+  "stats": {
+    "vida": 30,
+    "ataque": 10
+  },
+  "imagen": "https://static.wikia.nocookie.net/hollowknight/images/c/c9/B_Aspid_Mother.png/revision/latest?cb=20180528155535",
+  "coords": { "x": 35, "y": 23 }
+},
+{
+  "id": 82,
+  "nombre": "Cría de Áspid",
+  "tipo": "Cañón Nublado",
+  "altura": 0.3,
+  "peso": 1.0,
+  "habilidades": ["Vuelo", "Disparo"],
+  "descripcion": "Pequeña criatura voladora que acompaña a las Madres Áspid.",
+  "stats": {
+    "vida": 5,
+    "ataque": 5
+  },
+  "imagen": "https://static.wikia.nocookie.net/hollowknight/images/4/41/B_Aspid_Hatchling.png/revision/latest?cb=20180125140251&path-prefix=es",
+  "coords": { "x": 39, "y": 25 }
+},
+{
+  "id": 83,
+  "nombre": "Goam",
+  "tipo": "Cruces Olvidados",
+  "altura": 1.0,
+  "peso": 10.0,
+  "habilidades": ["Emboscada", "Carga"],
+  "descripcion": "Criatura enorme que permanece oculta bajo tierra y emerge al detectar movimiento.",
+  "stats": {
+    "vida": 30,
+    "ataque": 10
+  },
+  "imagen": "https://static.wikia.nocookie.net/hollowknight/images/7/76/Bestiary_armoured-worm_f.png/revision/latest?cb=20180818005913",
+  "coords": { "x": 43, "y": 27 }
+},
+{
+  "id": 84,
+  "nombre": "Vagabundo Errante",
+  "tipo": "Cruces Olvidados",
+  "altura": 0.8,
+  "peso": 3.0,
+  "habilidades": ["Golpe", "Movimiento terrestre"],
+  "descripcion": "Un antiguo habitante de Hallownest convertido en un enemigo errante.",
+  "stats": {
+    "vida": 12,
+    "ataque": 5
+  },
+  "imagen": "https://static.wikia.nocookie.net/hollowknight/images/e/ec/B_Wandering_Husk.png/revision/latest?cb=20170518190035",
+  "coords": { "x": 47, "y": 30 }
+},
+{
+  "id": 85,
+  "nombre": "Cabeza Cornuda",
+  "tipo": "Cruces Olvidados",
+  "altura": 0.9,
+  "peso": 4.0,
+  "habilidades": ["Golpe", "Embestida"],
+  "descripcion": "Un cascarón infectado que utiliza su gran cabeza para atacar.",
+  "stats": {
+    "vida": 20,
+    "ataque": 8
+  },
+  "imagen": "https://static.wikia.nocookie.net/hollowknight/images/c/cf/B_Husk_Hornhead.png/revision/latest?cb=20181127214028",
+  "coords": { "x": 51, "y": 32 }
+},
+{
+  "id": 86,
+  "nombre": "Caparazon Saltador",
+  "tipo": "Cruces Olvidados",
+  "altura": 0.8,
+  "peso": 3.0,
+  "habilidades": ["Salto", "Golpe"],
+  "descripcion": "Enemigo infectado que utiliza grandes saltos para acercarse a sus objetivos.",
+  "stats": {
+    "vida": 12,
+    "ataque": 5
+  },
+  "imagen": "https://static.wikia.nocookie.net/hollowknight/images/4/4d/B_Leaping_Husk.png/revision/latest?cb=20180528162203",
+  "coords": { "x": 54, "y": 34 }
+},
+{
+  "id": 87,
+  "nombre": "Bravucón Hueco",
+  "tipo": "Cruces Olvidados",
+  "altura": 0.9,
+  "peso": 4.0,
+  "habilidades": ["Golpe", "Carga"],
+  "descripcion": "Un cascarón infectado que ataca agresivamente a cualquier intruso cercano.",
+  "stats": {
+    "vida": 15,
+    "ataque": 8
+  },
+  "imagen": "https://static.wikia.nocookie.net/hollowknight/images/6/6a/B_Husk_Bully.png/revision/latest?cb=20180528162536",
+  "coords": { "x": 58, "y": 36 }
+},
+{
+  "id": 88,
+  "nombre": "Husk Guardián",
+  "tipo": "Cruces Olvidados",
+  "altura": 1.1,
+  "peso": 5.0,
+  "habilidades": ["Golpe", "Emboscada"],
+  "descripcion": "Un cascarón resistente que protege las zonas que alguna vez pertenecieron a Hallownest.",
+  "stats": {
+    "vida": 35,
+    "ataque": 12
+  },
+  "imagen": "https://static.wikia.nocookie.net/hollowknight/images/1/1b/B_Husk_Guard.png/revision/latest?cb=20170411171316",
+  "coords": { "x": 62, "y": 38 }
+},
+{
+  "id": 89,
+  "nombre": "Husk Enterrado",
+  "tipo": "Cruces Olvidados",
+  "altura": 0.8,
+  "peso": 4.0,
+  "habilidades": ["Emboscada", "Golpe"],
+  "descripcion": "Un enemigo oculto bajo tierra que espera a que algo se acerque para atacar.",
+  "stats": {
+    "vida": 15,
+    "ataque": 8
+  },
+  "imagen": "https://static.wikia.nocookie.net/hollowknight/images/6/65/B_Entombed_Husk.png/revision/latest?cb=20170411223249",
+  "coords": { "x": 66, "y": 40 }
+},
+{
+  "id": 90,
+  "nombre": "Maggot",
+  "tipo": "Cruces Olvidados",
+  "altura": 0.2,
+  "peso": 1.0,
+  "habilidades": ["Movimiento terrestre"],
+  "descripcion": "Pequeña criatura que habita dentro de la armadura del Caballero Falso.",
+  "stats": {
+    "vida": 5,
+    "ataque": 0
+  },
+  "imagen": "https://static.wikia.nocookie.net/hollowknight/images/5/53/B_Maggot.png/revision/latest?cb=20170413134802",
+  "coords": { "x": 70, "y": 42 }
+},
+{
+    "id": 90,
+    "nombre": "Duranda",
+    "tipo": "Cañón Nublado",
+    "altura": 0.8,
+    "peso": 4.5,
+    "habilidades": [
+        "Embestida",
+        "Caparazón protector",
+        "Ataque frontal"
+    ],
+    "descripcion": "Una criatura blindada que se desplaza lentamente por el Cañón Nublado. Su resistente caparazón la protege de muchos ataques.",
+    "stats": {
+        "vida": 30,
+        "ataque": 10
+    },
+    "imagen": "https://static.wikia.nocookie.net/hollowknight/images/9/95/B_Duranda.png/revision/latest?cb=20180123235151&path-prefix=es",
+    "coords": {
+        "x": 62,
+        "y": 35
+    }
+},
+{
+  "id": 92,
+  "nombre": "Baldur",
+  "tipo": "Páramos Fúngicos",
+  "altura": 0.6,
+  "peso": 4.0,
+  "habilidades": ["Rodar", "Defensa"],
+  "descripcion": "Criatura acorazada que se enrolla sobre sí misma para protegerse.",
+  "stats": {
+    "vida": 15,
+    "ataque": 5
+  },
+  "imagen": "https://static.wikia.nocookie.net/hollowknight/images/4/4c/B_Baldur.png/revision/latest?cb=20180926173709",
+  "coords": { "x": 78, "y": 46 }
+},
+{
+  "id": 93,
+  "nombre": "Baldur Anciano",
+  "tipo": "Páramos Fúngicos",
+  "altura": 0.9,
+  "peso": 7.0,
+  "habilidades": ["Rodar", "Defensa"],
+  "descripcion": "Una variante mayor y más resistente del Baldur común.",
+  "stats": {
+    "vida": 30,
+    "ataque": 8
+  },
+  "imagen": "https://static.wikia.nocookie.net/hollowknight/images/5/52/B_Elder_Baldur.png/revision/latest?cb=20180125185152&path-prefix=es",
+  "coords": { "x": 82, "y": 48 }
+},
+{
+  "id": 94,
+  "nombre": "Musguito",
+  "tipo": "Sendero Verde",
+  "altura": 0.4,
+  "peso": 2.0,
+  "habilidades": ["Camuflaje", "Movimiento terrestre"],
+  "descripcion": "Pequeña criatura cubierta de hojas que se oculta entre la vegetación.",
+  "stats": {
+    "vida": 15,
+    "ataque": 5
+  },
+  "imagen": "https://static.wikia.nocookie.net/hollowknight/images/4/47/B_Mosskin.png/revision/latest?cb=20180125200457&path-prefix=es",
+  "coords": { "x": 86, "y": 50 }
+},
+{
+  "id": 95,
+  "nombre": "Mosca Musgosa",
+  "tipo": "Sendero Verde",
+  "altura": 0.4,
+  "peso": 2.0,
+  "habilidades": ["Vuelo", "Camuflaje"],
+  "descripcion": "Pequeño enemigo volador que se cubre de hojas para ocultarse.",
+  "stats": {
+    "vida": 15,
+    "ataque": 5
+  },
+  "imagen": "https://static.wikia.nocookie.net/hollowknight/images/a/af/B_Mossfly.png/revision/latest?cb=20170411172739",
+  "coords": { "x": 90, "y": 52 }
+},
+{
+  "id": 96,
+  "nombre": "Caballero Musgo",
+  "tipo": "Sendero Verde",
+  "altura": 1.0,
+  "peso": 5.0,
+  "habilidades": ["Espada", "Embestida", "Defensa"],
+  "descripcion": "Guerrero cubierto de vegetación que protege los caminos de Sendero Verde.",
+  "stats": {
+    "vida": 30,
+    "ataque": 12
+  },
+  "imagen": "https://static.wikia.nocookie.net/hollowknight/images/1/19/B_Moss_Knight.png/revision/latest?cb=20180126121840&path-prefix=es",
+  "coords": { "x": 94, "y": 54 }
+}
+
+
 ]
