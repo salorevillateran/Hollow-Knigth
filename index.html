@@ -15,7 +15,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 
     <link rel="preconnect"
-          href="https://fonts.gstatic.com"
+          href="https://fonts.googleapis.com"
           crossorigin>
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
@@ -71,6 +71,8 @@
         </div>
 
     </header>
+    
+
 
     <!-- MAIN -->
 
@@ -109,12 +111,14 @@
                 <button id="nextBtn">
 
                     Siguiente ➜
-
-                </button>
+                    <button id="randomBtn">
+                        ✧Personaje aleatorio✧
+                    </button>
 
             </div>
 
         </section>
+
 
         <!-- DETALLE -->
 
@@ -130,7 +134,7 @@
 
                     Explora Hallownest
 
-                </h2>
+                </h2> 
 
                 <p>
 
@@ -143,35 +147,37 @@
         </aside>
 
     </main>
-    </main>
 
-<!-- MAPA DE HALLOWNEST -->
 
-<section class="hallownest-map">
+    <!-- MAPA DE HALLOWNEST -->
 
-    <div class="map-title">
+    <section class="hallownest-map">
 
-        <h2>Mapa de Hallownest</h2>
+        <div class="map-title">
 
-        <p>
-            Explora las regiones del reino y descubre dónde habitan sus criaturas.
-        </p>
+            <h2>Mapa de Hallownest</h2>
 
-    </div>
+            <p>
+                Explora las regiones del reino y descubre dónde habitan sus criaturas.
+            </p>
 
-    <div class="map-container">
+        </div>
 
-        <img
-            src="https://static.wikia.nocookie.net/hollowknight/images/d/d9/NavMap.png/revision/latest/scale-to-width-down/630?cb=20180214020056&path-prefix=es"
-            alt="Mapa de Hallownest"
-            class="hallownest-map-image"
-        >
 
-    </div>
+        <!-- CONTENEDOR DEL MAPA -->
 
-</section>
+        <div id="mapContainer" class="map-container">
 
-<!-- LOADING -->
+            <img
+                src="https://static.wikia.nocookie.net/hollowknight/images/d/d9/NavMap.png/revision/latest/scale-to-width-down/630?cb=20180214020056&path-prefix=es"
+                alt="Mapa de Hallownest"
+                class="hallownest-map-image"
+            >
+
+        </div>
+
+    </section>
+
 
     <!-- LOADING -->
 
@@ -187,6 +193,8 @@
 
     </div>
 
+
+
     <!-- ERROR -->
 
     <div id="errorMessage" class="hidden">
@@ -194,6 +202,8 @@
         No se encontró ninguna criatura.
 
     </div>
+    
+
 
     <!-- FOOTER -->
 
@@ -212,6 +222,7 @@
         </p>
 
     </footer>
+
 
     <script src="script.js"></script>
 
